@@ -113,7 +113,9 @@ function App() {
                   <BsInstagram />
                 </div>
                 <div className="text-2xl p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-                  <BsWhatsapp />
+                  <a href="https://wa.me/5596981163765">
+                    <BsWhatsapp />
+                  </a>
                 </div>
               </div>
             </div>
@@ -142,12 +144,14 @@ function App() {
                   anos e Helena com 5.
                 </p>
                 <p className="text-center text-[20px] pt-10 pb-10">
-                  <button
-                    className="p-3 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
-                    style={{ background: currentColor }}
-                  >
-                    Agende sua consulta
-                  </button>
+                  <a href="https://wa.me/5596981163765">
+                    <button
+                      className="p-3 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
+                      style={{ background: currentColor }}
+                    >
+                      Agende sua consulta
+                    </button>
+                  </a>
                 </p>
               </div>
             </div>
