@@ -57,7 +57,7 @@ function App() {
                 <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
                   <BsList />
                 </span>
-                <p className="text-[20px] uppercase font-bold">
+                <p className="text-[18px] uppercase font-bold">
                   Dra. Camila Neiva
                 </p>
               </div>
@@ -119,9 +119,9 @@ function App() {
                   anos e tenho dois filhos maravilhosos: Pedro Paulo, hoje com 6
                   anos e Helena com 5.
                 </p>
-                <p className="text-center text-[24px] pt-10 pb-10">
+                <p className="text-center text-[20px] pt-10 pb-10">
                   <button
-                    className="p-3 w-80 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
+                    className="p-3 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
                     style={{ background: currentColor }}
                   >
                     Agende sua consulta
