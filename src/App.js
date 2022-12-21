@@ -16,7 +16,7 @@ import conteudo04 from "./assets/conteudo04.png";
 
 function App() {
   const colors = [
-    "#03C9D7",
+    "#8E3200",
     "#1A97F5",
     "#7352FF",
     "#FF5C8E",
@@ -29,7 +29,7 @@ function App() {
   const menuClassActived = `p-2 pl-5 pr-5 rounded-lg bg-gray-200 hover:ease-in-out duration-500 hover:-translate-y-1
   dark:bg:gray-600`;
   const isActive = true;
-  const currentColor = colors[5];
+  const currentColor = colors[0];
   const currentMode = "light";
 
   return (
