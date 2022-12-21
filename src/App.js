@@ -4,7 +4,7 @@ import {
   BsList,
   BsInstagram,
   BsFacebook,
-  BsEnvelope,
+  BsWhatsapp,
   BsArrowBarUp,
 } from "react-icons/bs";
 
@@ -51,7 +51,7 @@ function App() {
           </button>
         </div>
         <div className="container mx-auto transform duration-500">
-          <div id="home" className="pl-4 pr-4 pt-5 pb-10">
+          <div id="home" className="pl-4 pr-4 pt-5 pb-3">
             <div className="flex justify-between items-center align-middle">
               <div className="flex items-center gap-3">
                 <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
@@ -91,7 +91,7 @@ function App() {
                   <BsInstagram />
                 </div>
                 <div className="text-2xl p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-                  <BsEnvelope />
+                  <BsWhatsapp />
                 </div>
               </div>
             </div>
