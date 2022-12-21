@@ -30,7 +30,7 @@ function App() {
   dark:bg:gray-600`;
   const isActive = true;
   const currentColor = colors[0];
-  const currentMode = "light";
+  const currentMode = "dark";
   const depoimentos = [
     {
       name: "José Amanjás",
