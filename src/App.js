@@ -31,6 +31,28 @@ function App() {
   const isActive = true;
   const currentColor = colors[0];
   const currentMode = "light";
+  const depoimentos = [
+    {
+      name: "José Amanjás",
+      depoimento:
+        "É um prazer poder falar como foi minha experiência nesse lugar, fui bem recebida, acolhida com carinho, uma experiência satisfatória e gratificante. Obrigada Dra Neiva por nos fazer sentir confiança em seu trabalho",
+    },
+    {
+      name: "Giuliana Martins",
+      depoimento:
+        "A Dra Camila é uma profissional sem igual, um atendimento humanizado incrível, fora o espaço de atendimento que é super aconchegante, recomendo sem medo!",
+    },
+    {
+      name: "Laura Cardoso",
+      depoimento:
+        "Um lugar que tem um atendimento diferenciado, acolhedor e profissionais excelentes que tem o olhar humanizado pelos pacientes.",
+    },
+    {
+      name: "Nayana Duarte",
+      depoimento:
+        "Atendimento de excelência. Uma ótima profissional. Recomendo.",
+    },
+  ];
 
   return (
     <div className={currentMode === "dark" ? "dark" : ""}>
@@ -77,7 +99,7 @@ function App() {
                   <a href="#conteudo">Conteúdo</a>
                 </div>
                 <div className={menuClass}>
-                  <a href="#titulos">Títulos Acadêmicos</a>
+                  <a href="#depoimentos">Depoimentos</a>
                 </div>
                 <div className={menuClass}>
                   <a href="#contato">Onde atendo</a>
@@ -261,31 +283,40 @@ function App() {
               </div>
             </div>
           </div>
-          <div id="titulos" className="pl-5 pr-5">
+          <div id="depoimentos" className="pl-5 pr-5">
             <div className="p-5 pt-10">
               <div className="text-[26px] font-bold text-center uppercase">
-                Títulos Acadêmicos
+                Depoimentos
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 gap-5 pt-5">
               <div className="flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   className="w-full md:w-52 object-cover"
-                  src={faker.image.abstract(640, 480, true)}
+                  src={faker.image.fashion(640, 480, true)}
+                  alt="avatar depoimento"
+                />
+                <div className="leading-normal">
+                  <div className="p-4">
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
+                      {depoimentos[0].name}
+                    </h5>
+                    <p>{depoimentos[0].depoimento}</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
+                <img
+                  className="w-full md:w-52 object-cover"
+                  src={faker.image.fashion(640, 480, true)}
                   alt=" imagem titulo 01"
                 />
                 <div className="leading-normal">
                   <div className="p-4">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {faker.lorem.sentence()}
+                      {depoimentos[1].name}
                     </h5>
-                    <p>{faker.lorem.sentences()}</p>
-                  </div>
-                  <div className="h-full bg-blue-50 p-4">
-                    <div>
-                      <h5>{faker.company.name()}</h5>
-                      <p>{faker.company.companySuffix()}</p>
-                    </div>
+                    <p>{depoimentos[1].depoimento}</p>
                   </div>
                 </div>
               </div>
@@ -298,15 +329,9 @@ function App() {
                 <div className="leading-normal">
                   <div className="p-4">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {faker.lorem.sentence()}
+                      {depoimentos[2].name}
                     </h5>
-                    <p>{faker.lorem.sentences()}</p>
-                  </div>
-                  <div className="h-full bg-blue-50 p-4">
-                    <div>
-                      <h5>{faker.company.name()}</h5>
-                      <p>{faker.company.companySuffix()}</p>
-                    </div>
+                    <p>{depoimentos[2].depoimento}</p>
                   </div>
                 </div>
               </div>
@@ -319,36 +344,9 @@ function App() {
                 <div className="leading-normal">
                   <div className="p-4">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {faker.lorem.sentence()}
+                      {depoimentos[3].name}
                     </h5>
-                    <p>{faker.lorem.sentences()}</p>
-                  </div>
-                  <div className="h-full bg-blue-50 p-4">
-                    <div>
-                      <h5>{faker.company.name()}</h5>
-                      <p>{faker.company.companySuffix()}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
-                <img
-                  className="w-full md:w-52 object-cover"
-                  src={faker.image.abstract(640, 480, true)}
-                  alt=" imagem titulo 01"
-                />
-                <div className="leading-normal">
-                  <div className="p-4">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {faker.lorem.sentence()}
-                    </h5>
-                    <p>{faker.lorem.sentences()}</p>
-                  </div>
-                  <div className="h-full bg-blue-50 p-4">
-                    <div>
-                      <h5>{faker.company.name()}</h5>
-                      <p>{faker.company.companySuffix()}</p>
-                    </div>
+                    <p>{depoimentos[3].depoimento}</p>
                   </div>
                 </div>
               </div>
