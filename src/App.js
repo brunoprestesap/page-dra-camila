@@ -99,12 +99,12 @@ function App() {
           <div id="hero" className="p-5">
             <div className="transform duration-500 hover:shadow-2xl hover:-translate-y-1 relative">
               <img className="xl:max-w-6xl" src={hero} alt="hero"></img>
-              <div className="content bg-white md:p-12 p-12 pt-8 lg:max-w-3xl w-full lg:absolute top-48 right-5 shadow-2xl dark:bg-gray-800 dark:text-gray-200">
+              <div className="content bg-white md:p-12 p-6 pt-8 lg:max-w-3xl w-full lg:absolute top-48 right-5 shadow-2xl dark:bg-gray-800 dark:text-gray-200">
                 <div className="flex justify-between font-bold text-sm">
                   <p>SOBRE MIM</p>
                   <p>CRM/AP 1789</p>
                 </div>
-                <h2 className="text-5xl font-bold mt-4 md:mt-10 uppercase">
+                <h2 className="text-3xl font-bold mt-4 md:mt-10 uppercase">
                   {" "}
                   Dra. Camila Neiva
                 </h2>
