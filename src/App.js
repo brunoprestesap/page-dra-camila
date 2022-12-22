@@ -17,7 +17,7 @@ import conteudo04 from "./assets/conteudo04.png";
 
 function App() {
   const colors = [
-    "#8E3200",
+    "#A1412B",
     "#1A97F5",
     "#7352FF",
     "#FF5C8E",
@@ -31,7 +31,7 @@ function App() {
   dark:bg:gray-600`;
   const isActive = true;
   const currentColor = colors[0];
-  const currentMode = "dark";
+  const currentMode = "light";
   const depoimentos = [
     {
       name: "José Amanjás",
