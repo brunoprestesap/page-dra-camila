@@ -77,7 +77,7 @@ function App() {
                 <img
                   src={logo}
                   alt="logo brand"
-                  className="object-cover w-18 h-10 pr-5"
+                  className="object-contain max-w-xs w-18 h-10 sm:pr-2 md:pr-4"
                 ></img>
               </div>
               <div className="font-bold lg:flex justify-center hidden">
@@ -103,17 +103,17 @@ function App() {
                 </div>
               </div>
               <div className="flex justify-between gap-2">
-                <div className="text-2xl p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
+                <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
                   <a href="https://www.facebook.com/dra.camilaneiva">
                     <BsFacebook />
                   </a>
                 </div>
-                <div className="text-2xl p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
+                <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
                   <a href="https://www.instagram.com/dra.camilaneiva/">
                     <BsInstagram />
                   </a>
                 </div>
-                <div className="text-2xl p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
+                <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
                   <a href="https://wa.me/5596981163765">
                     <BsWhatsapp />
                   </a>
