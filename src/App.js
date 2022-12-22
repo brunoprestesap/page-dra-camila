@@ -7,6 +7,7 @@ import {
   BsWhatsapp,
   BsArrowBarUp,
 } from "react-icons/bs";
+import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 import hero from "./assets/hero.png";
 import conteudo01 from "./assets/conteudo01.png";
@@ -306,10 +307,23 @@ function App() {
                 />
                 <div className="leading-normal">
                   <div className="p-4">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {depoimentos[0].name}
-                    </h5>
-                    <p>{depoimentos[0].depoimento}</p>
+                    <div className="flex gap-5 mb-3">
+                      <FaQuoteLeft size={100} />
+                      <p>{depoimentos[0].depoimento}</p>
+                      <FaQuoteRight size={100} />
+                    </div>
+                    <div className="flex gap-2 pl-10 mb-3">
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </div>
+                    <div className="pl-10">
+                      <p className="mb-2 font-bold tracking-tight">
+                        {depoimentos[0].name} - Google Locais
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -317,44 +331,83 @@ function App() {
                 <img
                   className="w-full md:w-52 object-cover"
                   src={faker.image.fashion(640, 480, true)}
-                  alt=" imagem titulo 01"
+                  alt="avatar depoimento"
                 />
                 <div className="leading-normal">
                   <div className="p-4">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {depoimentos[1].name}
-                    </h5>
-                    <p>{depoimentos[1].depoimento}</p>
+                    <div className="flex gap-5 mb-3">
+                      <FaQuoteLeft size={100} />
+                      <p>{depoimentos[1].depoimento}</p>
+                      <FaQuoteRight size={100} />
+                    </div>
+                    <div className="flex gap-2 pl-10 mb-3">
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </div>
+                    <div className="pl-10">
+                      <p className="mb-2 font-bold tracking-tight">
+                        {depoimentos[1].name} - Google Locais
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   className="w-full md:w-52 object-cover"
-                  src={faker.image.abstract(640, 480, true)}
-                  alt=" imagem titulo 01"
+                  src={faker.image.fashion(640, 480, true)}
+                  alt="avatar depoimento"
                 />
                 <div className="leading-normal">
                   <div className="p-4">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {depoimentos[2].name}
-                    </h5>
-                    <p>{depoimentos[2].depoimento}</p>
+                    <div className="flex gap-5 mb-3">
+                      <FaQuoteLeft size={100} />
+                      <p>{depoimentos[2].depoimento}</p>
+                      <FaQuoteRight size={100} />
+                    </div>
+                    <div className="flex gap-2 pl-10 mb-3">
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </div>
+                    <div className="pl-10">
+                      <p className="mb-2 font-bold tracking-tight">
+                        {depoimentos[2].name} - Google Locais
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap md:flex-nowrap shadow-lg mx-auto max-w-3xl group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   className="w-full md:w-52 object-cover"
-                  src={faker.image.abstract(640, 480, true)}
-                  alt=" imagem titulo 01"
+                  src={faker.image.fashion(640, 480, true)}
+                  alt="avatar depoimento"
                 />
                 <div className="leading-normal">
                   <div className="p-4">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight">
-                      {depoimentos[3].name}
-                    </h5>
-                    <p>{depoimentos[3].depoimento}</p>
+                    <div className="flex gap-5 mb-3">
+                      <FaQuoteLeft size={100} />
+                      <p>{depoimentos[3].depoimento}</p>
+                      <FaQuoteRight size={100} />
+                    </div>
+                    <div className="flex gap-2 pl-10 mb-3">
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                      <FaStar />
+                    </div>
+                    <div className="pl-10">
+                      <p className="mb-2 font-bold tracking-tight">
+                        {depoimentos[3].name} - Google Locais
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
