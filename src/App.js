@@ -10,7 +10,7 @@ import {
 import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 import logo from "./assets/logo.png";
-import hero from "./assets/hero.png";
+import hero from "./assets/hero.jpg";
 import conteudo01 from "./assets/conteudo01.png";
 import conteudo02 from "./assets/conteudo02.png";
 import conteudo03 from "./assets/conteudo03.png";
