@@ -7,7 +7,7 @@ import {
   BsWhatsapp,
   BsArrowBarUp,
 } from "react-icons/bs";
-import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
+import { FaQuoteLeft, FaQuoteRight, FaStar, FaUserMd } from "react-icons/fa";
 
 import hero from "./assets/hero.png";
 import conteudo01 from "./assets/conteudo01.png";
@@ -72,6 +72,9 @@ function App() {
               <div className="flex items-center gap-3">
                 <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
                   <BsList />
+                </span>
+                <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
+                  <FaUserMd />
                 </span>
                 <p className="text-[18px] uppercase font-bold">
                   Dra. Camila Neiva
