@@ -70,14 +70,14 @@ function App() {
         <div className="container mx-auto transform duration-500">
           <div id="home" className="pl-4 pr-4 pt-5 pb-3">
             <div className="flex justify-between items-center align-middle">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center md:gap-2">
                 <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
                   <BsList />
                 </span>
                 <img
                   src={logo}
                   alt="logo brand"
-                  className="object-contain max-w-xs w-18 h-10 sm:pr-2 md:pr-4"
+                  className="object-contain max-w-xs w-18 h-10"
                 ></img>
               </div>
               <div className="font-bold lg:flex justify-center hidden">
