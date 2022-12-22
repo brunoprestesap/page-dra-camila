@@ -7,8 +7,9 @@ import {
   BsWhatsapp,
   BsArrowBarUp,
 } from "react-icons/bs";
-import { FaQuoteLeft, FaQuoteRight, FaStar, FaUserMd } from "react-icons/fa";
+import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
+import logo from "./assets/logo.png";
 import hero from "./assets/hero.png";
 import conteudo01 from "./assets/conteudo01.png";
 import conteudo02 from "./assets/conteudo02.png";
@@ -24,7 +25,7 @@ function App() {
   dark:bg:gray-600`;
   const isActive = true;
   const currentColor = colors[1];
-  const currentMode = "light";
+  const currentMode = "dark";
   const depoimentos = [
     {
       name: "José Amanjás",
@@ -73,12 +74,11 @@ function App() {
                 <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
                   <BsList />
                 </span>
-                <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
-                  <FaUserMd />
-                </span>
-                <p className="text-[18px] uppercase font-bold">
-                  Dra. Camila Neiva
-                </p>
+                <img
+                  src={logo}
+                  alt="logo brand"
+                  className="object-cover w-18 h-10 pr-5"
+                ></img>
               </div>
               <div className="font-bold lg:flex justify-center hidden">
                 <div className={menuClassActived}>
