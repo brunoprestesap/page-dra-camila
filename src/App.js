@@ -16,21 +16,14 @@ import conteudo03 from "./assets/conteudo03.png";
 import conteudo04 from "./assets/conteudo04.png";
 
 function App() {
-  const colors = [
-    "#A1412B",
-    "#1A97F5",
-    "#7352FF",
-    "#FF5C8E",
-    "#1E4DB7",
-    "#FB9678",
-  ];
+  const colors = ["#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
 
   const menuClass = `p-2 pl-5 pr-5 hover:bg-gray-200 rounded-lg hover:ease-in-out duration-500 hover:-translate-y-1 
   dark:hover:bg-gray-600`;
   const menuClassActived = `p-2 pl-5 pr-5 rounded-lg bg-gray-200 hover:ease-in-out duration-500 hover:-translate-y-1
   dark:bg:gray-600`;
   const isActive = true;
-  const currentColor = colors[0];
+  const currentColor = colors[1];
   const currentMode = "light";
   const depoimentos = [
     {
@@ -151,7 +144,7 @@ function App() {
                 <p className="text-center text-[20px] pt-10 pb-10">
                   <a href="https://wa.me/5596981163765">
                     <button
-                      className="p-3 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
+                      className="p-5 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
                       style={{ background: currentColor }}
                     >
                       Agende sua consulta
