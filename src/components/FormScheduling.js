@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom";
 import hero from "../assets/hero.jpg";
 
 function FormScheduling({ color }) {
   return (
     <div id="hero" className="p-5">
       <div className="transform duration-500 hover:shadow-2xl hover:-translate-y-1 relative">
-        <img className="xl:max-w-6xl" src={hero} alt="hero"></img>
+        <img className="md:max-w-2xl xl:max-w-6xl" src={hero} alt="hero"></img>
 
         <div className="content bg-white md:p-12 p-6 pt-8 lg:max-w-3xl w-full lg:absolute top-48 right-5 shadow-2xl dark:bg-gray-800 dark:text-gray-200">
-          <h2 className="text-3xl font-bold mt-2 md:mt-3 uppercase">
+          <h2 className="text-2xl font-bold mt-2 md:mt-3 uppercase">
             {" "}
             AGENDAMENTO DE CONSULTA
           </h2>
@@ -29,7 +30,7 @@ function FormScheduling({ color }) {
               <input
                 type="number"
                 class="rounded my-3 dark:bg-gray-200 dark:text-gray-800"
-                placeholder="Insira seu e-mail preferido"
+                placeholder="Insira seu whatsapp para contato futuro"
               ></input>
               <label>Data:</label>
               <input
@@ -44,6 +45,14 @@ function FormScheduling({ color }) {
                 >
                   Agendar
                 </button>
+                <Link to="/">
+                  <button
+                    className="ml-5 p-5 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
+                    style={{ background: color }}
+                  >
+                    Voltar
+                  </button>
+                </Link>
               </div>
             </div>
           </form>
