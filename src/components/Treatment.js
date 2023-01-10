@@ -19,7 +19,7 @@ function Treatment() {
     },
     {
       icon: <FaMehRollingEyes />,
-      title: "Sono",
+      title: "Insônia",
       text: "A avaliação da qualidade do sono é fundamental na Psiquiatria pois costuma ser o primeiro sintoma surgido ou percebido por pessoas acometidas por transtorno mental",
     },
   ];
