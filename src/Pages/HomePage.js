@@ -3,6 +3,7 @@ import BtnUp from "../components/BtnUp";
 import NavBar from "../components/NavBar";
 import Contents from "../components/Contents";
 import Depositions from "../components/Depositions";
+import Diferentials from "../components/Diferential";
 
 function HomePage() {
   const colors = ["#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -25,6 +26,9 @@ function HomePage() {
 
           {/* Hero area */}
           <HeroContent color={currentColor} />
+
+          {/* Diferentials area */}
+          <Diferentials />
 
           {/* Content Area */}
           <Contents color={currentColor} />
