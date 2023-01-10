@@ -10,17 +10,17 @@ function Treatment() {
     {
       icon: <FaSadTear />,
       title: "Depressão",
-      text: "O uso da telemedicina tem ajudado milhares de pessoas a buscarem tratamento para diversos tipos de doenças e transtornos. A sensação é de estar presente junto ao psiquiatra, que irá realizar a avaliação dos sintomas e orientar o tratamento de acordo com os dados colhidos do paciente",
+      text: "Depressão em psiquiatria tem uma conotação diferente do que muitos usam no cotidiano. É um diagnóstico apresentando um conjunto de sintomas que podem alterar apetite, sono, energia, disposição, concentração e até mesmo a capacidade de sentir prazer",
     },
     {
       icon: <FaFrownOpen />,
       title: "Ansiedade",
-      text: "Cuidado e humanização no atendimento por meio da escuta acolhedora. Formamos uma equipe de confiança, atualizada em conhecimentos e tecnologias que facilitam os tratamentos. Atuamos com base na ética profissional, empatia e respeito pela vida.",
+      text: "O termo é abrangente, mas na psiquiatria pode ser entendido como um grupo de doenças que tem como características antecipações de eventos que podem causar medo, angústia, raiva, tristeza e até pânico",
     },
     {
       icon: <FaMehRollingEyes />,
       title: "Sono",
-      text: "Somos confiáveis e respeitamos o seu sigilo. Entendemos sua situação e sabemos as técnicas para tratar doenças, distúrbios e transtornos relacionados à saúde da mente, mas nos preocupamos em, além disso, melhorar sua qualidade de vida.",
+      text: "A avaliação da qualidade do sono é fundamental na Psiquiatria pois costuma ser o primeiro sintoma surgido ou percebido por pessoas acometidas por transtorno mental",
     },
   ];
 
