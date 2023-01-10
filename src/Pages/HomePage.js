@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import Contents from "../components/Contents";
 import Depositions from "../components/Depositions";
 import Diferentials from "../components/Diferential";
+import Treatment from "../components/Treatment";
 
 function HomePage() {
   const colors = ["#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -32,6 +33,9 @@ function HomePage() {
 
           {/* Content Area */}
           <Contents color={currentColor} />
+
+          {/* Treatments area */}
+          <Treatment />
 
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
