@@ -10,17 +10,17 @@ function Treatment() {
     {
       icon: <FaSadTear />,
       title: "Depressão",
-      text: "Depressão em psiquiatria tem uma conotação diferente do que muitos usam no cotidiano. É um diagnóstico apresentando um conjunto de sintomas que podem alterar apetite, sono, energia, disposição, concentração e até mesmo a capacidade de sentir prazer",
+      text: "Se você está se sentindo triste, desanimado ou sem esperança, pode ser que esteja lidando com uma depressão. Não deixe esses sentimentos controlarem sua vida. O tratamento da depressão pode ajudá-lo a se sentir melhor e recuperar sua qualidade de vida.",
     },
     {
       icon: <FaFrownOpen />,
       title: "Ansiedade",
-      text: "O termo é abrangente, mas na psiquiatria pode ser entendido como um grupo de doenças que tem como características antecipações de eventos que podem causar medo, angústia, raiva, tristeza e até pânico",
+      text: "A ansiedade é comum e tratável. Trabalhando juntos, podemos encontrar um plano de tratamento personalizado, que pode incluir terapia, medicamentos ou ambos. Não enfrente sozinho, agende uma consulta conosco para começarmos a trabalhar juntos e melhorar sua qualidade de vida.",
     },
     {
       icon: <FaMehRollingEyes />,
       title: "Insônia",
-      text: "A avaliação da qualidade do sono é fundamental na Psiquiatria pois costuma ser o primeiro sintoma surgido ou percebido por pessoas acometidas por transtorno mental",
+      text: "Se você está lutando com a insônia, sabe que pode afetar sua vida diária e saúde geral. Isso pode afetar sua capacidade de se concentrar, aumentar o estresse e deixá-lo com baixa energia. Não deixe que a insônia controle sua vida, existe ajuda disponível.",
     },
   ];
 

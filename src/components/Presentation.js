@@ -14,13 +14,15 @@ function Presentation({ color, showForm }) {
         Dra. Camila Neiva
       </h2>
       <p className="pt-5">
-        Sou Médica formada pela Universidade Federal do Amapá, fiz psiquiatria
-        pelo Albert Einstein do Rio de Janeiro, também me formei em Enfermagem
-        pela UNICAMP em 2007, e terminei meu mestrado em 2009.
+        Bem-vindo à minha página! Meu nome é Camila Neiva e sou psiquiatra. Estou aqui para ouvir suas preocupações e trabalhar com você para encontrar maneiras de melhorar sua saúde mental e bem-estar.
+        Eu entendo que falar sobre sua saúde mental pode ser difícil, mas estou aqui para oferecer uma escuta compreensiva e não-julgadora.
+        Nós vamos trabalhar juntos para encontrar o melhor plano de tratamento para você, seja ele terapia, medicamentos ou uma combinação dos dois.
+        Lembre-se, você não está sozinho nesta jornada e eu estou aqui para apoiá-lo. 
+        Estou ansioso por conhecê-lo melhor."
       </p>
       <p className="pt-5">
-        Sou casada há 8 anos e tenho 2 filhos, estamos juntos há 16 anos e tenho
-        dois filhos maravilhosos: Pedro Paulo, hoje com 6 anos e Helena com 5.
+        Não importa quão difícil possa parecer, tenha a certeza de que está tomando a decisão certa para si mesmo ao buscar ajuda.
+        Não deixe que esses sentimentos o controlem, agende uma consulta conosco hoje e comece a trilhar o caminho para uma vida mais equilibrada e saudável.
       </p>
       <div className="text-center text-[20px] pt-10 pb-10">
         <button
