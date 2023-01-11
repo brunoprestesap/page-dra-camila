@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsFillCalendarDateFill } from "react-icons/bs";
 
 function Presentation({ color, showForm }) {
   return (
@@ -21,16 +22,21 @@ function Presentation({ color, showForm }) {
         Sou casada há 8 anos e tenho 2 filhos, estamos juntos há 16 anos e tenho
         dois filhos maravilhosos: Pedro Paulo, hoje com 6 anos e Helena com 5.
       </p>
-      <p className="text-center text-[20px] pt-10 pb-10">
-        <Link to="/scheduler">
-          <button
-            className="p-5 w-70 text-white font-bold rounded-full transform duration-500 hover:-translate-y-1"
-            style={{ background: color }}
-          >
-            Agende sua consulta
-          </button>
-        </Link>
-      </p>
+      <div className="text-center text-[20px] pt-10 pb-10">
+        <button
+          className="p-5 w-80 text-white rounded-full transform duration-500 hover:-translate-y-1"
+          style={{ background: color }}
+        >
+            <Link to="/scheduler">
+          <div className="flex">
+              <span className="text-2xl ml-5 mr-5">
+                <BsFillCalendarDateFill />
+              </span>
+              Agende sua consulta
+          </div>
+            </Link>
+        </button>
+      </div>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { BsFacebook, BsInstagram, BsList, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsList, BsWhatsapp, BsFillHouseFill, BsFillPersonFill, BsFillPlayBtnFill, BsFillAwardFill, BsFillGeoAltFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -25,20 +25,53 @@ function NavBar({ color }) {
         <div className="font-bold lg:flex justify-center hidden">
           <div className={menuClassActived}>
             <Link to="/" style={{ color: isActive ? color : "" }}>
-              Home
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <BsFillHouseFill />
+                </span>
+                Home
+              </div>
             </Link>
           </div>
           <div className={menuClass}>
-            <a href="#sobre">Sobre mim</a>
+            <a href="#sobre">
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <BsFillPersonFill />
+                </span>
+                Sobre mim
+              </div>
+            </a>
           </div>
           <div className={menuClass}>
-            <a href="#conteudo">Conteúdo</a>
+            <a href="#conteudo">
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <BsFillPlayBtnFill />
+                </span>
+                Conteúdo
+              </div>
+            </a>
           </div>
           <div className={menuClass}>
-            <a href="#depoimentos">Depoimentos</a>
+            <a href="#depoimentos">
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <BsFillAwardFill />
+                </span>
+                Depoimentos
+              </div>
+            </a>
           </div>
           <div className={menuClass}>
-            <a href="#contato">Onde atendo</a>
+            <a href="#contato">
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <BsFillGeoAltFill />
+                </span>
+                Onde atendo
+              </div>
+            </a>
           </div>
         </div>
         <div className="flex justify-between gap-2">
