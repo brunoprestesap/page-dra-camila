@@ -9,25 +9,25 @@ function Contents({ color }) {
     {
       img: img01,
       title: "Como é a 1º consulta com a psiquiatra?",
-      text: "Vem que vou te contar como funciona a consulta comigo.",
+      text: "Uma consulta com um psiquiatra é uma oportunidade para discutir suas preocupações de saúde mental e encontrar maneiras de melhorar seu bem-estar. Durante a sua consulta, você terá a oportunidade de falar comigo sobre seus sintomas, sua história médica e suas preocupações.",
       link: "https://www.instagram.com/reel/CmNEHrnpJ1i/?utm_source=ig_web_button_share_sheet",
     },
     {
       img: img02,
       title: "Vamos falar sobre a Depressão?",
-      text: "Você já passou por isso ou conhece alguém que luta todos os dias?",
+      text: "Se você está se sentindo triste, desanimado ou sem esperança, pode ser que esteja lidando com uma depressão. Não deixe esses sentimentos controlarem sua vida. O tratamento da depressão pode ajudá-lo a se sentir melhor e recuperar sua qualidade de vida.",
       link: "https://www.instagram.com/reel/ClHbJ8vJdQV/?utm_source=ig_web_button_share_sheet",
     },
     {
       img: img03,
       title: "Depressão é falta de Deus?",
-      text: "Depressão é falta de Deus? Assista meu vídeo sobre.",
+      text: "A crença de que a depressão é causada por falta de fé ou espiritualidade pode levar a julgamentos e estigmatização desnecessária de pessoas que sofrem com essa condição, e pode impedir que elas busquem ajuda médica.",
       link: "https://www.instagram.com/reel/Cl4axDEJOLg/?utm_source=ig_web_button_share_sheet",
     },
     {
       img: img04,
       title: "Você precisa ir ao psiquiatra?",
-      text: "Geralmente quem fala isso, é quem mais precisa. Veja meu post",
+      text: "Se você está se sentindo triste, desanimado ou sem esperança, se está tendo dificuldade para dormir, se está com dificuldade para se concentrar, se está com falta de apetite ou mudanças no seu peso, se está sentindo ansioso ou com medo sem motivo aparente, esses são sinais de que pode ser benéfico consultar um psiquiatra.",
       link: "https://www.instagram.com/reel/Clj25D1JLlV/?utm_source=ig_web_button_share_sheet",
     },
   ];
