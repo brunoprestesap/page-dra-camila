@@ -4,7 +4,7 @@ function FormScheduler({ color }) {
   return (
     <div id="scheduler" className="flex items-center flex-col p-5">
       <h2 className="text-[26px] mt-5 font-bold text-center uppercase">
-        AGENDE SEU CONSULTA AGORA
+        AGENDE SUA CONSULTA AGORA
       </h2>
 
       <div className="flex flex-col items-center w-full mt-5 bg-white md:p-12 p-5 lg:max-w-4xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">

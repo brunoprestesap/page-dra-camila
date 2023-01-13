@@ -4,7 +4,7 @@ import { BsFillCalendarDateFill } from "react-icons/bs";
 function Presentation({ color, showForm }) {
   return (
     <div className="content bg-white md:p-12 p-4 pt-8 lg:max-w-3xl w-full lg:absolute top-40 right-5 shadow-2xl dark:bg-gray-800 dark:text-gray-200">
-      <h1 className="text-2xl font-bold">
+      <h1 className="text-4xl font-bold">
         Encontre ajuda para seus problemas emocionais com a Dra. Camila Neiva
       </h1>
 

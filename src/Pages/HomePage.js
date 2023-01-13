@@ -43,6 +43,7 @@ function HomePage() {
 
           {/* Diferentials area */}
           <Diferentials />
+
           {/* Form Agendamento */}
           <FormScheduler color={currentColor} />
 
