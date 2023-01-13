@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 function FormScheduler({ color }) {
     return (
         <div id="scheduler" className="flex items-center flex-col p-5">
-            <div className="text-[26px] font-bold text-center uppercase">
+            <h2 className="text-[26px] mt-5 font-bold text-center uppercase">
                 AGENDE SEU CONSULTA AGORA
-            </div>
+            </h2>
 
             <div className="w-full mt-5 bg-white md:p-12 p-5 lg:max-w-2xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">
                 <form>
