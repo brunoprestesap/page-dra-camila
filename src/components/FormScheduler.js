@@ -9,7 +9,7 @@ function FormScheduler({ color }) {
 
             <div className="w-full mt-5 bg-white md:p-12 p-5 lg:max-w-2xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">
                 <form>
-                    <div className="flex flex-col font-bold text-sm gap-1 uppercase">
+                    <div className="flex flex-col text-sm gap-1 uppercase">
                         <label>Nome:</label>
                         <input
                             type="text"

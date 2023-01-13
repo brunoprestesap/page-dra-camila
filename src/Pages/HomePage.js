@@ -35,12 +35,12 @@ function HomePage() {
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
 
-          {/* Diferentials area */}
-          <Diferentials />
-
           {/* Form Agendamento */}
           <FormScheduler color={currentColor} />
 
+          {/* Diferentials area */}
+          <Diferentials />
+  
           {/* Content Area */}
           <Contents color={currentColor} />
 
