@@ -1,4 +1,11 @@
-import { BsFacebook, BsInstagram, BsList, BsWhatsapp, BsFillHouseFill, BsFillPersonFill, BsFillPlayBtnFill, BsFillAwardFill, BsFillGeoAltFill } from "react-icons/bs";
+import {
+  BsWhatsapp,
+  BsFillHouseFill,
+  BsFillPersonFill,
+  BsFillPlayBtnFill,
+  BsFillAwardFill,
+  BsFillGeoAltFill,
+} from "react-icons/bs";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -13,9 +20,6 @@ function NavBar({ color }) {
     <div id="home" className="pl-4 pr-4 pt-5 pb-3">
       <div className="flex justify-between items-center align-middle">
         <div className="flex items-center md:gap-2">
-          <span className="text-2xl cursor-pointer hover:bg-gray-200 p-2 rounded-full hover:ease-in-out duration-500 dark:hover:bg-gray-600">
-            <BsList />
-          </span>
           <img
             src={logo}
             alt="logo brand"
@@ -39,17 +43,17 @@ function NavBar({ color }) {
                 <span className="text-2xl mr-2">
                   <BsFillPersonFill />
                 </span>
-                Sobre mim
+                Agendar consulta
               </div>
             </a>
           </div>
           <div className={menuClass}>
-            <a href="#conteudo">
+            <a href="#tratamentos">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">
                   <BsFillPlayBtnFill />
                 </span>
-                Conteúdo
+                Tratamentos
               </div>
             </a>
           </div>
@@ -64,27 +68,17 @@ function NavBar({ color }) {
             </a>
           </div>
           <div className={menuClass}>
-            <a href="#contato">
+            <a href="#diferenciais">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">
                   <BsFillGeoAltFill />
                 </span>
-                Onde atendo
+                Meus diferenciais
               </div>
             </a>
           </div>
         </div>
         <div className="flex justify-between gap-2">
-          <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-            <a href="https://www.facebook.com/dra.camilaneiva">
-              <BsFacebook />
-            </a>
-          </div>
-          <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-            <a href="https://www.instagram.com/dra.camilaneiva/">
-              <BsInstagram />
-            </a>
-          </div>
           <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
             <a href="https://wa.me/5596981163765">
               <BsWhatsapp />
