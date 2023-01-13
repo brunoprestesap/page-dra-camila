@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function VideoPlayer({ id, title, videoId }) {
-  const [isPlaying, setIsPlaying] = useState(false);
 
   return (
     <div>
