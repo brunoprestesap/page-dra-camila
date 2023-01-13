@@ -38,7 +38,7 @@ function Depositions() {
             <CardDepositions
               img={dep.img}
               depText={dep.text}
-              depName={dep.Name}
+              depName={dep.name}
             />
           );
         })}

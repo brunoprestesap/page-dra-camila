@@ -1,4 +1,5 @@
 import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
+import { FaMapMarkedAlt } from "react-icons/fa";
 
 function CardDepositions({ img, depText, depName }) {
   return (
@@ -22,8 +23,13 @@ function CardDepositions({ img, depText, depName }) {
             <FaStar />
             <FaStar />
           </div>
-          <div className="pl-10 mb-2 font-bold tracking-tight">
-            {depName} - Google Locais
+          <div className="flex flex-row-reverse items-center justify-between pl-10 mb-2 font-bold tracking-tight">
+            <div>
+              <FaMapMarkedAlt />
+            </div>
+            <div>
+              {depName} - Google Locais
+            </div>
           </div>
         </div>
       </div>
