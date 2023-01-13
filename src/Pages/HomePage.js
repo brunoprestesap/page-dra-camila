@@ -32,6 +32,9 @@ function HomePage() {
           {/* Treatments area */}
           <Treatment />
 
+          {/* Form Agendamento */}
+          <FormScheduler color={currentColor} />
+
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
 
@@ -40,9 +43,14 @@ function HomePage() {
 
           {/* Diferentials area */}
           <Diferentials />
+          {/* Form Agendamento */}
+          <FormScheduler color={currentColor} />
 
           {/* Content Area */}
           <ContentsVideo color={currentColor} />
+
+          {/* Form Agendamento */}
+          <FormScheduler color={currentColor} />
 
         </div>
       </div>

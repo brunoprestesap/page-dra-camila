@@ -1,4 +1,4 @@
-import { BsArrowBarUp } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 function BtnUp({ color }) {
   return (
@@ -6,11 +6,11 @@ function BtnUp({ color }) {
       <button
         type="button"
         onClick={() => {}}
-        style={{ background: color, borderRadius: "50%" }}
+        style={{ background: '#03C988', borderRadius: "50%" }}
         className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
       >
-        <a href="#home">
-          <BsArrowBarUp />
+        <a href="https://wa.me/5596981163765" target="_blank">
+          <FaWhatsapp />
         </a>
       </button>
     </div>

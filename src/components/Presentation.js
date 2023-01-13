@@ -20,7 +20,7 @@ function Presentation({ color, showForm }) {
           className="p-5 w-80 text-white rounded-full transform duration-500 hover:-translate-y-1"
           style={{ background: color }}
         >
-          <a href="https://wa.me/5596981163765">
+          <a href="https://wa.me/5596981163765" target="_blank">
             <div className="flex">
               <span className="text-2xl ml-5 mr-5">
                 <BsFillCalendarDateFill />

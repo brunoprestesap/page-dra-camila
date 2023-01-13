@@ -1,11 +1,9 @@
 import {
   BsWhatsapp,
   BsFillHouseFill,
-  BsFillPersonFill,
-  BsFillPlayBtnFill,
   BsFillAwardFill,
-  BsFillGeoAltFill,
 } from "react-icons/bs";
+import { FaPhoneAlt, FaStar, FaUserMd } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -41,7 +39,7 @@ function NavBar({ color }) {
             <a href="#sobre">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">
-                  <BsFillPersonFill />
+                  <FaPhoneAlt />
                 </span>
                 Agendar consulta
               </div>
@@ -51,7 +49,7 @@ function NavBar({ color }) {
             <a href="#tratamentos">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">
-                  <BsFillPlayBtnFill />
+                  <FaUserMd />
                 </span>
                 Tratamentos
               </div>
@@ -71,7 +69,7 @@ function NavBar({ color }) {
             <a href="#diferenciais">
               <div className="flex items-center">
                 <span className="text-2xl mr-2">
-                  <BsFillGeoAltFill />
+                  <FaStar />
                 </span>
                 Meus diferenciais
               </div>
@@ -80,7 +78,7 @@ function NavBar({ color }) {
         </div>
         <div className="flex justify-between gap-2">
           <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-            <a href="https://wa.me/5596981163765">
+            <a href="https://wa.me/5596981163765" target="_blank">
               <BsWhatsapp />
             </a>
           </div>
