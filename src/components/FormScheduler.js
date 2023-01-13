@@ -1,5 +1,4 @@
 import { BsFillCalendarDateFill } from "react-icons/bs";
-import { Link } from "react-router-dom";
 
 function FormScheduler({ color }) {
   return (
@@ -18,7 +17,7 @@ function FormScheduler({ color }) {
           className="p-5 w-80 m-5 text-white rounded-full transform duration-500 hover:-translate-y-1"
           style={{ background: color }}
         >
-          <a href="https://wa.me/5596981163765" target="_blank">
+          <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
             <div className="flex">
               <span className="text-2xl ml-5 mr-5">
                 <BsFillCalendarDateFill />

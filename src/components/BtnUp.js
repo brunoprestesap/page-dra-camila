@@ -9,7 +9,7 @@ function BtnUp({ color }) {
         style={{ background: '#03C988', borderRadius: "50%" }}
         className="text-3xl text-white p-3 hover:drop-shadow-xl hover:bg-light-gray"
       >
-        <a href="https://wa.me/5596981163765" target="_blank">
+        <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
           <FaWhatsapp />
         </a>
       </button>

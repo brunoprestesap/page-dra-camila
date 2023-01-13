@@ -78,7 +78,7 @@ function NavBar({ color }) {
         </div>
         <div className="flex justify-between gap-2">
           <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-            <a href="https://wa.me/5596981163765" target="_blank">
+            <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
               <BsWhatsapp />
             </a>
           </div>
