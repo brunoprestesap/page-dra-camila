@@ -2,6 +2,7 @@ import HeroContent from "../components/Hero";
 import BtnUp from "../components/BtnUp";
 import NavBar from "../components/NavBar";
 import Contents from "../components/Contents";
+import ContentsVideo from "../components/ContentsVideo.js"
 import Depositions from "../components/Depositions";
 import Diferentials from "../components/Diferential";
 import Treatment from "../components/Treatment";
@@ -40,9 +41,9 @@ function HomePage() {
 
           {/* Diferentials area */}
           <Diferentials />
-  
+
           {/* Content Area */}
-          <Contents color={currentColor} />
+          <ContentsVideo color={currentColor} />
 
         </div>
       </div>
