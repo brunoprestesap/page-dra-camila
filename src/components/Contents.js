@@ -1,3 +1,5 @@
+import React from 'react'
+
 import img01 from "../assets/conteudo01.png";
 import img02 from "../assets/conteudo02.png";
 import img03 from "../assets/conteudo03.png";

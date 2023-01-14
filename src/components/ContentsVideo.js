@@ -1,3 +1,5 @@
+import React from 'react'
+
 import VideoPlayer from "./VideoPlayer.js";
 import depressao from '../assets/depressao.mp4'
 import babyblues from '../assets/babyblues.mp4'

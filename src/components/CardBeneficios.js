@@ -1,3 +1,5 @@
+import React from 'react'
+
 function CardBeneficios({ id, icon, title, text }) {
   return (
     <div

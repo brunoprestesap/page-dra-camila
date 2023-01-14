@@ -1,3 +1,5 @@
+import React from 'react'
+
 function CardContent({ id, imgContent, title, text, link, color }) {
   return (
     <div

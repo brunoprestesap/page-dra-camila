@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { BsFillCalendarDateFill } from "react-icons/bs";
 
 function FormScheduler({ color }) {

@@ -1,3 +1,5 @@
+import React from 'react'
+
 import CardDepositions from "./CardDepositions";
 import { faker } from "@faker-js/faker";
 

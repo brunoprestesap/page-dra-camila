@@ -1,3 +1,4 @@
+import React from 'react'
 import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 import { FaMapMarkedAlt } from "react-icons/fa";
 

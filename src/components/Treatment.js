@@ -1,3 +1,5 @@
+import React from 'react'
+
 import CardTreatment from "./CardTreatment";
 import {
   FaSadTear,

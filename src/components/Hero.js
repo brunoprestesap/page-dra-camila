@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Presentation from "./Presentation";
 import hero from "../assets/hero.jpg";
 
