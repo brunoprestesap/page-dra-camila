@@ -1,6 +1,5 @@
 import React from 'react'
-import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
-import { FaMapMarkedAlt } from "react-icons/fa";
+import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 function CardDepositions({ img, depText, depName }) {
   return (
@@ -18,16 +17,16 @@ function CardDepositions({ img, depText, depName }) {
             <FaQuoteRight size={100} />
           </div>
           <div className="flex gap-2 pl-10 mb-3">
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
-            <FaStar />
+            <FaStar color='FF884B'/>
+            <FaStar color='FF884B'/>
+            <FaStar color='FF884B'/>
+            <FaStar color='FF884B'/>
+            <FaStar color='FF884B'/>
           </div>
           <div className="flex flex-row-reverse items-center justify-between pl-10 mb-2 font-bold tracking-tight">
-            <div>
-              <FaMapMarkedAlt />
-            </div>
+            <h2 className='text-2xl'>
+              <FaGoogle color='#FF884B'/>
+            </h2>
             <div>
               {depName} - Google Locais
             </div>

@@ -7,7 +7,7 @@ function CardBeneficios({ id, icon, title, text }) {
       className="mx-auto group shadow-2xl pb-8 rounded-b-2xl transform duration-500 hover:-translate-y-2 bg-white dark:bg-gray-800"
     >
       <div className="p-5">
-        <div className="mb-5 flex justify-center text-6xl">
+        <div className="mt-8 mb-8 flex justify-center text-6xl">
           {icon}
         </div>
         <div className="pl-5 pr-5">

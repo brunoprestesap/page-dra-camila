@@ -8,9 +8,9 @@ import Treatment from "../components/Treatment";
 import FormScheduler from "../components/FormScheduler";
 
 function HomePage() {
-  const colors = ["#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
+  const colors = ["#FF884B", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
 
-  const currentColor = colors[1];
+  const currentColor = colors[0];
   const currentMode = "dark";
 
   return (

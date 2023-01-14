@@ -52,10 +52,10 @@ function Contents({ color }) {
     <div id="conteudo" className="pl-5 pr-5">
       <h2 className="text-[26px] font-bold text-center uppercase mt-8">Meus conteúdos</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 gap-5">
-        {contents.map((content, idx) => {
+        {contents.map((content, i) => {
           return (
             <VideoPlayer
-              id={content.id}
+              key={i}
               videoId={content.videoId}
             />
           );

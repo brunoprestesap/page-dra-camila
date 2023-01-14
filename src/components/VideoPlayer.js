@@ -3,10 +3,9 @@ import React from 'react';
 function VideoPlayer({ id, title, videoId }) {
 
   return (
-    <div>
+    <div key={id}>
       <h2 className='text-2xl font-bold mb-2 text-center'>{title}</h2>
       <iframe
-        id={id}
         title={title}
         src={videoId}
         frameBorder="0"

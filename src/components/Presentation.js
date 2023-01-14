@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillCalendarDateFill } from "react-icons/bs";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Presentation({ color, showForm }) {
   return (
@@ -21,9 +21,9 @@ function Presentation({ color, showForm }) {
           style={{ background: color }}
         >
           <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
-            <div className="flex">
-              <span className="text-2xl ml-5 mr-5">
-                <BsFillCalendarDateFill />
+            <div className="flex content-center justify-around">
+              <span className="text-2xl">
+                <FaWhatsapp />
               </span>
               <h2 className="text-2xl">Agende sua consulta</h2>
             </div>

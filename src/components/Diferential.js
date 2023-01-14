@@ -67,7 +67,7 @@ function Diferentials() {
         {contents.map((content, idx) => {
           return (
             <CardBeneficios
-              id={idx}
+              key={idx}
               icon={content.icon}
               title={content.title}
               text={content.text}

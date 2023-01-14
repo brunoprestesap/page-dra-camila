@@ -35,9 +35,10 @@ function Depositions() {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 gap-5 pt-5">
-        {testimonials.map((dep) => {
+        {testimonials.map((dep, i) => {
           return (
             <CardDepositions
+              key={i}
               img={dep.img}
               depText={dep.text}
               depName={dep.name}
