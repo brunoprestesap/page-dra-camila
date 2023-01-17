@@ -28,14 +28,14 @@ function Contact() {
                     </div>
 
                     <div className="flex justify-center items-center">
-                        <FaHospitalAlt className="text-6xl" />
+                        
                         <h3>Rua Manoel Eudóxio Pereira, 826 - Centro. CEP 68900-021. Macapá / Amapá.</h3>
                     </div>
 
                     <h2 className="font-bold text-xl">Contato</h2>
 
                     <div className="flex justify-center items-center gap-5">
-                        <FaMobileAlt className="text-5xl" />
+                        <FaMobileAlt className="text-2xl" />
                         <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
                             <h3 className="text-xl">(96)98116-3765</h3>
                         </a>
