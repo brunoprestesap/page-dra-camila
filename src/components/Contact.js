@@ -1,4 +1,4 @@
-import { FaHospitalAlt, FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt } from "react-icons/fa"
+import { FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt } from "react-icons/fa"
 
 function Contact() {
     return (
