@@ -8,12 +8,12 @@ import mitos from '../assets/mitos.mp4'
 import primeiraConsulta from '../assets/primeira-consulta.mp4'
 import estadio from '../assets/reels-estadio.mp4'
 import reels from '../assets/reels.mp4'
-import depressaoCapa from '../assets/depressao.png'
-import babybluesCapa from '../assets/babyblues.jpg'
-import depressaoCoisaSeriaCapa from '../assets/depressao-coisa-seria.png'
-import mitosCapa from '../assets/mitos.png'
-import primeiraConsultaCapa from '../assets/primeira-consulta.png'
-import reelsCapa from '../assets/reels.png'
+import depressaoCapa from '../assets/capa/depressao.jpg'
+import babybluesCapa from '../assets/capa/baby-blues.jpg'
+import depressaoCoisaSeriaCapa from '../assets/capa/depresao-coisa-seria.jpg'
+import mitosCapa from '../assets/capa/depressao.jpg'
+import primeiraConsultaCapa from '../assets/capa/primeira-consulta.jpg'
+import reelsCapa from '../assets/capa/reels-estadio.jpg'
 
 function Contents({ color }) {
   const contents = [
