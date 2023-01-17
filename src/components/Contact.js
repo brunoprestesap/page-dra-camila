@@ -1,11 +1,12 @@
-import { FaHospitalAlt, FaMobileAlt } from "react-icons/fa"
+import { FaHospitalAlt, FaMapMarkedAlt, FaMapMarkerAlt, FaMobileAlt } from "react-icons/fa"
 
 function Contact() {
     return (
 
         <div id="contact" className="pl-5 pr-5">
             <div className="p-5">
-                <div className="text-4xl font-bold text-center uppercase">
+                <div className="flex justify-center gap-3 text-4xl font-bold text-center uppercase">
+                    <FaMapMarkedAlt />
                     Onde eu atendo
                 </div>
             </div>
@@ -21,7 +22,10 @@ function Contact() {
                     src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7YYbzwvhYY0RY0V-Dkp_Am8&key=AIzaSyAKyXjIGENqlWQFa4Pzk5HwUhuxpnmLZ_s">
                 </iframe>
                 <div className="flex flex-col content-center text-center px-12 gap-2 mt-5">
-                    <h2 className="font-bold text-xl">Meu endereço</h2>
+                    <div className="flex flex-col items-center">
+                        <FaMapMarkerAlt className="text-4xl mb-3"/>
+                        <h2 className="font-bold text-xl">Meu endereço</h2>
+                    </div>
 
                     <div className="flex justify-center items-center">
                         <FaHospitalAlt className="text-6xl" />
