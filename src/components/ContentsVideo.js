@@ -12,38 +12,38 @@ import reels from '../assets/reels.mp4'
 function Contents({ color }) {
   const contents = [
     {
-      id: 'VmTexoCHuVQ',
+      id: '1',
       title: 'Depressão',
       videoId: depressao
     },
     {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '2',
+        title: 'Baby Blues',
         videoId: babyblues
       },
       {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '3',
+        title: 'Depressão é coisa séria',
         videoId: depressaoCoisaSeria
       },
       {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '4',
+        title: 'Mitos',
         videoId: mitos
       },
       {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '5',
+        title: 'Primeira consulta',
         videoId: primeiraConsulta
       },
       {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '6',
+        title: 'Reels Estádio',
         videoId: estadio
       },
       {
-        id: 'VmTexoCHuVQ',
-        title: 'Depressão',
+        id: '7',
+        title: 'Reels',
         videoId: reels
       },
   ];
@@ -55,7 +55,8 @@ function Contents({ color }) {
         {contents.map((content, i) => {
           return (
             <VideoPlayer
-              key={i}
+              key={content.id}
+              title={content.title}
               videoId={content.videoId}
             />
           );
