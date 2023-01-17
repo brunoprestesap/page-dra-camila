@@ -6,6 +6,7 @@ import Depositions from "../components/Depositions";
 import Diferentials from "../components/Diferential";
 import Treatment from "../components/Treatment";
 import FormScheduler from "../components/FormScheduler";
+import Contact from "../components/Contact";
 
 function HomePage() {
   const colors = ["#FF884B", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -52,6 +53,9 @@ function HomePage() {
 
           {/* Form Agendamento */}
           <FormScheduler color={currentColor} />
+
+          {/* Form Agendamento */}
+          <Contact color={currentColor} />          
 
         </div>
       </div>

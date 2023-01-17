@@ -26,7 +26,7 @@ function NavBar({ color }) {
             className="object-contain max-w-xs w-18 h-10"
           ></img>
         </div>
-        <div className="font-bold lg:flex justify-center hidden">
+        <div className="lg:flex justify-center hidden">
           <div className={menuClassActived}>
             <Link to="/" style={{ color: isActive ? color : "" }}>
               <div className="flex items-center">
