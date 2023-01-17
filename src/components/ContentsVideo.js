@@ -8,43 +8,56 @@ import mitos from '../assets/mitos.mp4'
 import primeiraConsulta from '../assets/primeira-consulta.mp4'
 import estadio from '../assets/reels-estadio.mp4'
 import reels from '../assets/reels.mp4'
+import depressaoCapa from '../assets/depressao.png'
+import babybluesCapa from '../assets/babyblues.jpg'
+import depressaoCoisaSeriaCapa from '../assets/depressao-coisa-seria.png'
+import mitosCapa from '../assets/mitos.png'
+import primeiraConsultaCapa from '../assets/primeira-consulta.png'
+import reelsCapa from '../assets/reels.png'
 
 function Contents({ color }) {
   const contents = [
     {
       id: '1',
       title: 'Depressão',
-      videoId: depressao
+      videoId: depressao,
+      poster: depressaoCapa
     },
     {
         id: '2',
         title: 'Baby Blues',
-        videoId: babyblues
+        videoId: babyblues,
+        poster: babybluesCapa
       },
       {
         id: '3',
         title: 'Depressão é coisa séria',
-        videoId: depressaoCoisaSeria
+        videoId: depressaoCoisaSeria,
+        poster: depressaoCoisaSeriaCapa
       },
       {
         id: '4',
         title: 'Mitos',
-        videoId: mitos
+        videoId: mitos,
+        poster: mitosCapa
       },
       {
         id: '5',
         title: 'Primeira consulta',
-        videoId: primeiraConsulta
+        videoId: primeiraConsulta,
+        poster: primeiraConsultaCapa
       },
       {
         id: '6',
         title: 'Reels Estádio',
-        videoId: estadio
+        videoId: estadio,
+        poster: reelsCapa
       },
       {
         id: '7',
         title: 'Reels',
-        videoId: reels
+        videoId: reels,
+        poster: reelsCapa
       },
   ];
 
@@ -58,6 +71,7 @@ function Contents({ color }) {
               key={content.id}
               title={content.title}
               videoId={content.videoId}
+              poster={content.poster}
             />
           );
         })}

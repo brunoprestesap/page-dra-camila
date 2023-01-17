@@ -37,7 +37,7 @@ function Contact() {
                     <div className="flex items-center gap-3">
                         <FaMobileAlt className="text-4xl" />
                         <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
-                            <h3 className="text-xl">(96)98116-3765</h3>
+                            <h3 className="text-xl">(96) 98116-3765</h3>
                         </a>
                     </div>
                 </div>
