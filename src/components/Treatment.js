@@ -13,7 +13,7 @@ function Treatment() {
       id: 1,
       icon: <FaSadTear />,
       title: "Depressão",
-      text: "Se você está se sentindo triste, desanimado ou sem esperança, pode ser que esteja lidando com uma depressão. Não deixe esses sentimentos controlarem sua vida. O tratamento da depressão pode ajudá-lo a se sentir melhor e recuperar sua qualidade de vida.",
+      text: "Se você está se sentindo triste, desanimado ou sem esperança, pode ser que esteja passando por um problema de depressão. Não deixe esses sentimentos tomarem conta da sua vida. O tratamento para depressão pode ajudá-lo a se sentir bem melhor e a recuperar sua qualidade de vida.",
     },
     {
       id: 2,

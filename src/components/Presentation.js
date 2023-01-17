@@ -8,11 +8,9 @@ function Presentation({ color, showForm }) {
         Encontre ajuda para seus problemas emocionais com a Dra. Camila Neiva
       </h1>
 
-      <h2 className="text-base mt-5">
-        Estou aqui para ouvir suas preocupações e trabalhar com você para
-        encontrar maneiras de melhorar sua saúde mental e bem-estar. Nós vamos
-        trabalhar juntos para encontrar o melhor plano de tratamento para você,
-        seja ele terapia, medicamentos ou uma combinação dos dois.
+      <h2 className="text-base mt-5 leading-7 pr-16">
+      Estou aqui para ouvir suas preocupações e junto com você encontrar maneiras de melhorar sua saúde mental e bem-estar. 
+      Vamos juntos definir o melhor plano de tratamento para você, seja ele com terapia, mudanças no estilo de vida, medicamentos ou uma combinação deles.
       </h2>
 
       <div className="text-center text-[20px] pt-10 pb-10">
