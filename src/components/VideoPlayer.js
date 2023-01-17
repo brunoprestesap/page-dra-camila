@@ -5,14 +5,9 @@ function VideoPlayer({ id, title, videoId }) {
   return (
     <div key={id}>
       <h2 className='text-xl font-medium mb-2 text-center'>{title}</h2>
-      <iframe
-        title={title}
-        src={videoId}
-        frameBorder="0"
-        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-        style={{ width: '100%', height: '600px' }}
-      />
+      <video className='w-full h-[600px] rounded-2xl' controls>
+        <source src={videoId} type="video/mp4"/>
+      </video>
     </div>
   );
 }
