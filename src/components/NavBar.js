@@ -5,7 +5,7 @@ import {
   BsFillHouseFill,
   BsFillAwardFill,
 } from "react-icons/bs";
-import { FaPhoneAlt, FaStar, FaUserMd } from "react-icons/fa";
+import { FaMapMarkedAlt, FaPhoneAlt, FaStar, FaUserMd } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
@@ -74,6 +74,16 @@ function NavBar({ color }) {
                   <FaStar />
                 </span>
                 Meus diferenciais
+              </div>
+            </a>
+          </div>
+          <div className={menuClass}>
+            <a href="#contact">
+              <div className="flex items-center">
+                <span className="text-2xl mr-2">
+                  <FaMapMarkedAlt />
+                </span>
+                Onde atendo
               </div>
             </a>
           </div>
