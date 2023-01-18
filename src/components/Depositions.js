@@ -10,7 +10,7 @@ function Depositions() {
     {
       id: 1,
       img: faker.image.avatar(640, 480, true),
-      name: "José Amanjás",
+      name: "José Amanajás",
       text: "É um prazer poder falar como foi minha experiência nesse lugar, fui bem recebida, acolhida com carinho, uma experiência satisfatória e gratificante. Obrigada Dra Neiva por nos fazer sentir confiança em seu trabalho",
     },
     {
@@ -54,8 +54,8 @@ function Depositions() {
 
   return (
     <div id="depoimentos" className="p-5 pt-10">
-      <div className="text-4xl font-bold text-center uppercase">
-        Depoimentos
+      <div className="text-3xl font-bold text-center uppercase">
+        Veja o que os meus pacientes falam sobre o meu trabalho
       </div>
 
       <div className="w-full m-auto py-4 px-2 relative">
