@@ -54,11 +54,11 @@ function Depositions() {
 
   return (
     <div id="depoimentos" className="p-5 pt-10">
-      <div className="text-[26px] font-bold text-center uppercase">
+      <div className="text-4xl font-bold text-center uppercase">
         Depoimentos
       </div>
 
-      <div className="w-full m-auto py-8 px-4 relative">
+      <div className="w-full m-auto py-4 px-2 relative">
         <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
           <CardDepositions
             key={testimonials[currentIndex].img}
