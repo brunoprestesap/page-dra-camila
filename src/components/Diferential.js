@@ -60,7 +60,7 @@ function Diferentials() {
     <div id="diferenciais" className="pl-5 pr-5">
       <div className="p-5 pt-10">
         <div className="text-[26px] font-bold text-center uppercase">
-          Meus Diferenciais
+          Meus Diferenciais - Porque as pessoas confiam na gente
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-5 pt-5">
