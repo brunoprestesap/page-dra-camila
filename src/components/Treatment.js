@@ -33,7 +33,7 @@ function Treatment() {
     <div id="tratamentos" className="pl-5 pr-5">
       <div className="p-5 pt-10">
         <div className="text-[26px] font-bold text-center uppercase">
-          Tratamentos - Em que podemos te ajudar
+          Em que podemos te ajudar
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-5 pt-5">

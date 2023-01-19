@@ -55,7 +55,7 @@ function Depositions() {
   return (
     <div id="depoimentos" className="p-5 pt-10">
       <div className="text-3xl font-bold text-center uppercase">
-        Veja o que os meus pacientes falam sobre o meu trabalho
+        Veja o que as pessoas falam sobre o nosso atendimento
       </div>
 
       <div className="w-full m-auto py-4 px-2 relative">
