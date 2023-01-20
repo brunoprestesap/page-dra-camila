@@ -7,7 +7,7 @@ function Contact() {
             <div className="p-5">
                 <div className="flex justify-center gap-3 text-4xl font-bold text-center uppercase">
                     <FaMapMarkedAlt />
-                    Onde eu atendo
+                    Onde estamos
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ function Contact() {
                 <div className="flex flex-col text-left px-12 gap-2 mt-5">
                     <div className="flex gap-3 items-center text-left">
                         <FaMapMarkerAlt className="text-4xl mb-3"/>
-                        <h2 className="font-bold text-2xl">Meu endereço</h2>
+                        <h2 className="font-bold text-2xl">Nosso endereço</h2>
                     </div>
 
                     <div className="flex text-left">

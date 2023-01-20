@@ -9,7 +9,7 @@ function Presentation({ color, showForm }) {
       </h1>
 
       <h2 className="text-base mt-5 leading-7 pr-16">
-      Estou aqui para ouvir suas preocupações e junto com você encontrar maneiras de melhorar sua saúde mental e bem-estar. 
+      Estou aqui para ouvir suas preocupações e junto com você buscar maneiras de melhorar sua saúde mental e reencontrar sua paz e bem-estar.
       Vamos juntos definir o melhor plano de tratamento para você, seja ele com terapia, mudanças no estilo de vida, medicamentos ou uma combinação deles.
       </h2>
 
