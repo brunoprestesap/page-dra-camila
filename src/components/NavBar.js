@@ -83,7 +83,7 @@ function NavBar({ color }) {
                 <span className="text-2xl">
                   <FaMapMarkedAlt />
                 </span>
-                Onde atendo
+                Onde estamos
               </div>
             </a>
           </div>

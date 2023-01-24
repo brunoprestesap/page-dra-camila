@@ -1,33 +1,36 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from 'react-icons/rx'
+import avatarOne from '../assets/_avatar.png'
+import avatarTwo from '../assets/avatar_.png'
+import avatarThree from '../assets/do-utilizador.png'
+import avatarFour from '../assets/avatar.png'
 
 import CardDepositions from "./CardDepositions";
-import { faker } from "@faker-js/faker";
 
 function Depositions() {
   const testimonials = [
     {
       id: 1,
-      img: faker.image.avatar(640, 480, true),
+      img: avatarOne,
       name: "José Amanajás",
       text: "É um prazer poder falar como foi minha experiência nesse lugar, fui bem recebida, acolhida com carinho, uma experiência satisfatória e gratificante. Obrigada Dra Neiva por nos fazer sentir confiança em seu trabalho",
     },
     {
       id: 2,
-      img: faker.image.avatar(640, 480, true),
+      img: avatarTwo,
       name: "Giuliana Martins",
       text: "A Dra Camila é uma profissional sem igual, um atendimento humanizado incrível, fora o espaço de atendimento que é super aconchegante, recomendo sem medo!",
     },
     {
       id: 3,
-      img: faker.image.avatar(640, 480, true),
+      img: avatarThree,
       name: "Laura Cardoso",
       text: "Um lugar que tem um atendimento diferenciado, acolhedor e profissionais excelentes que tem o olhar humanizado pelos pacientes.",
     },
     {
       id: 4,
-      img: faker.image.avatar(640, 480, true),
+      img: avatarFour,
       name: "Nayana Duarte",
       text: "Atendimento de excelência. Uma ótima profissional. Recomendo.",
     },
@@ -55,7 +58,7 @@ function Depositions() {
   return (
     <div id="depoimentos" className="p-5 pt-10">
       <div className="text-3xl font-bold text-center uppercase">
-        Veja o que as pessoas falam sobre o nosso atendimento
+        Veja o que as pessoas falam sobre o nosso atendimento
       </div>
 
       <div className="w-full m-auto py-4 px-2 relative">
