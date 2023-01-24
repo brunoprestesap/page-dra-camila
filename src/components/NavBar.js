@@ -1,10 +1,6 @@
-import React from 'react'
+import React from "react";
 
-import {
-  BsWhatsapp,
-  BsFillHouseFill,
-  BsFillAwardFill,
-} from "react-icons/bs";
+import { BsWhatsapp, BsFillHouseFill, BsFillAwardFill } from "react-icons/bs";
 import { FaMapMarkedAlt, FaPhoneAlt, FaStar, FaUserMd } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -38,7 +34,11 @@ function NavBar({ color }) {
             </Link>
           </div>
           <div className={menuClass}>
-          <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
+            <a
+              href="https://wa.me/5596981163765"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="flex items-center gap-2">
                 <span className="text-2xl">
                   <FaPhoneAlt />
@@ -90,7 +90,11 @@ function NavBar({ color }) {
         </div>
         <div className="flex justify-between gap-2">
           <div className="text-2xl md:p-2 rounded-full hover:bg-gray-200 hover:ease-in-out duration-500 cursor-pointer dark:hover:bg-gray-600">
-            <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
+            <a
+              href="https://wa.me/5596981163765"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsWhatsapp />
             </a>
           </div>
