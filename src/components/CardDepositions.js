@@ -4,9 +4,9 @@ import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 function CardDepositions({ img, depText, depName }) {
   return (
     <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 group transform duration-500 hover:-translate-y-2 rounded-2xl overflow-hidden cursor-pointer">
-      <div className='md:w-36 flex justify-center items-center'>
+      <div className='w-3/5 lg:w-36 flex justify-center items-center'>
         <img
-          className="object-cover md:w-full"
+          className="object-cover lg:w-full"
           src={img}
           alt="avatar depoimento"
         />
