@@ -38,7 +38,7 @@ function NavBar({ color }) {
             </Link>
           </div>
           <div className={menuClass}>
-            <a href="#sobre">
+          <a href="https://wa.me/5596981163765" target="_blank" rel="noreferrer">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">
                   <FaPhoneAlt />
