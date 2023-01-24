@@ -19,7 +19,7 @@ function Treatment() {
       id: 2,
       icon: <FaFrownOpen />,
       title: "Ansiedade",
-      text: "A ansiedade é comum e tratável. Trabalhando juntos, podemos encontrar um plano de tratamento personalizado, que pode incluir terapia, medicamentos ou ambos. Não enfrente sozinho, agende uma consulta conosco para começarmos a trabalhar juntos e melhorar sua qualidade de vida.",
+      text: "Falta de ar, sensação de desmaio, insônia, medo, sensação de que algo ruim está prestes a acontecer, irritabilidade e pensamentos ruins são sinais e sintomas graves de ansiedade. O mais importante é saber que ela é um problema que pode acontecer com todas as pessoas e que é possível tratar.",
     },
     {
       id: 3,
