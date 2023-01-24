@@ -33,9 +33,6 @@ function HomePage() {
           {/* Treatments area */}
           <Treatment />
 
-          {/* Form Agendamento */}
-          <FormScheduler color={currentColor} />
-
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
 
