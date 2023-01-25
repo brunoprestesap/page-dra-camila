@@ -13,14 +13,14 @@ function Depositions() {
     {
       id: 1,
       img: avatarOne,
-      name: "José Amanajás",
-      text: "É um prazer poder falar como foi minha experiência nesse lugar, fui bem recebida, acolhida com carinho, uma experiência satisfatória e gratificante. Obrigada Dra Neiva por nos fazer sentir confiança em seu trabalho",
+      name: "Cristina Cavalcante",
+      text: "Recebi a indicação de uma amiga e agora tenho orgulho de poder indicar também. A Dra Camila é uma excelente profissional, sempre atenciosa e cautelosa no atendimento e na indicação de tratamento. Só gratidão no meu coração ❤",
     },
     {
       id: 2,
       img: avatarTwo,
-      name: "Giuliana Martins",
-      text: "A Dra Camila é uma profissional sem igual, um atendimento humanizado incrível, fora o espaço de atendimento que é super aconchegante, recomendo sem medo!",
+      name: "Gabriel Yared",
+      text: "Atendimento excelente da recepção à consulta. A Dra. Camila Neiva acolhe, escuta e orienta com muita humanidade e preocupação com o paciente, o que infelizmente não vemos em muitos profissionais da área. Recomendo o atendimento e já estou animado para o meu retorno!",
     },
     {
       id: 3,
@@ -31,8 +31,32 @@ function Depositions() {
     {
       id: 4,
       img: avatarFour,
-      name: "Nayana Duarte",
+      name: "Bruno Prestes",
       text: "Atendimento de excelência. Uma ótima profissional. Recomendo.",
+    },
+    {
+      id: 5,
+      img: avatarThree,
+      name: "Giuliana Martins",
+      text: "A Dra Camila é uma profissional sem igual, um atendimento humanizado incrível, fora o espaço de atendimento que é super aconchegante, recomendo sem medo!",
+    },
+    {
+      id: 6,
+      img: avatarFour,
+      name: "Ronaldo dos Santos",
+      text: "Muito boa a consulta, bem explicativa e me deixou seguro.",
+    },
+    {
+      id: 7,
+      img: avatarFour,
+      name: "Artur Lagoia",
+      text: "O atendimento profissional foi excelente, acompanhado de uma ótima estrutura, o que me deu total confiança para continuar o meu tratamento e recomendar para outras pessoas o consultório Dra. Camila Neiva.",
+    },
+    {
+      id: 8,
+      img: avatarThree,
+      name: "Suellen Trindade",
+      text: "Excelente profissional! Escuta sensível, postura acolhedora que faz toda a diferença para quem está em sofrimento psíquico.",
     },
   ];
 

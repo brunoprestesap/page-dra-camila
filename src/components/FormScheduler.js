@@ -4,13 +4,13 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function FormScheduler({ color }) {
   return (
-    <div id="scheduler" className="flex items-center flex-col p-5">
-      <h2 className="text-4xl mt-5 font-bold text-center uppercase">
-        AGENDE SUA CONSULTA AGORA
+    <div id="scheduler" className="flex items-center flex-col p-8">
+      <h2 className="text-4xl font-bold text-center uppercase">
+        AGENDE SUA CONSULTA
       </h2>
 
-      <div className="flex flex-col items-center w-full mt-8 bg-white md:p-12 p-5 lg:max-w-4xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">
-        <h2 className="text-xl text-left">
+      <div className="flex flex-col items-center w-full bg-white md:p-12 p-5 lg:max-w-4xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">
+        <h2 className="text-xl text-center md:text-left leading-7">
           Não deixe seus problemas de saúde mental afetarem sua vida, agende uma
           consulta agora e juntos encontraremos um plano de
           tratamento para aliviar seus sintomas e melhorar seu bem-estar.
