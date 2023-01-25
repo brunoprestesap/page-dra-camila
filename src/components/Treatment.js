@@ -25,7 +25,7 @@ function Treatment() {
       id: 3,
       icon: <FaMehRollingEyes />,
       title: "Insônia",
-      text: "Se você está lutando com a insônia, sabe que pode afetar sua vida diária e saúde geral. Isso pode afetar sua capacidade de se concentrar, aumentar o estresse e deixá-lo com baixa energia. Não deixe que a insônia controle sua vida, existe ajuda disponível.",
+      text: "A insônia é uma doença que causar prejuízos importantes no seu dia a dia e na sua saúde em geral.  A pessoa com dificuldades para dormir pode apresentar sintomas associados à fadiga, dificuldades de concentração e memória, irritabilidade, alterações de humor e ansiedade. O tratamento para ansiedade começa pela adoção de hábitos e rotinas mais saudáveis.",
     },
   ];
 
