@@ -21,12 +21,12 @@ function CardDepositions({ img, depText, depName }) {
 
       <div className="leading-normal">
         <div className="p-4">
-          <div className="flex items-center text-sm md:text-xl font-normal gap-5 mb-3">
-            <FaQuoteLeft size={25} />
+          <div className="md:flex md:items-center text-sm md:text-xl font-normal md:gap-5">
+            <FaQuoteLeft className="invisible md:visible" size={25} />
             {depText}
-            <FaQuoteRight size={25} />
+            <FaQuoteRight className="invisible md:visible" size={25} />
           </div>
-          <div className="flex flex-row items-center font-medium tracking-tight">
+          <div className="flex flex-row mt-5 items-center font-medium tracking-tight">
             <FaGoogle color="#FF884B" size={25} />
             <div className="text-sm md:text-xl font-medium ml-5">{depName} - Google Locais</div>
           </div>
