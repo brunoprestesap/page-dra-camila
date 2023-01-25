@@ -10,7 +10,7 @@ function FormScheduler({ color }) {
       </h2>
 
       <div className="flex flex-col items-center rounded-2xl bg-cover duration-500 w-full md:p-12 p-5 lg:max-w-4xl shadow-2xl dark:bg-gray-800 dark:text-gray-200">
-        <h2 className="text-base leading-7 md:text-xl text-justify md:text-left md:leading-7">
+        <h2 className="text-xl leading-7 text-left md:text-center">
           O acompanhamento psiquiátrico é uma das ferramentas do tratamento do sofrimento mental.
           Assim como o corpo, nossa mente também precisa de atenção. 
           Agende sua consulta e juntos encontraremos o melhor plano de cuidados para você.
