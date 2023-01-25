@@ -21,16 +21,14 @@ function CardDepositions({ img, depText, depName }) {
 
       <div className="leading-normal">
         <div className="p-4">
-          <div className="flex items-center text-xl md:text-xl font-normal gap-5 mb-3">
-            <FaQuoteLeft size={100} />
+          <div className="flex items-center text-sm md:text-xl font-normal gap-5 mb-3">
+            <FaQuoteLeft size={25} />
             {depText}
-            <FaQuoteRight size={100} />
+            <FaQuoteRight size={25} />
           </div>
-          <div className="flex flex-row-reverse items-center justify-between font-medium tracking-tight">
-            <h2 className="text-3xl">
-              <FaGoogle color="#FF884B" />
-            </h2>
-            <div>{depName} - Google Locais</div>
+          <div className="flex flex-row items-center font-medium tracking-tight">
+            <FaGoogle color="#FF884B" size={25} />
+            <div className="text-sm md:text-xl font-medium ml-5">{depName} - Google Locais</div>
           </div>
         </div>
       </div>
