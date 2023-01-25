@@ -81,7 +81,7 @@ function Depositions() {
 
   return (
     <div id="depoimentos" className="p-5 pt-10">
-      <div className="text-3xl font-bold text-center uppercase">
+      <div className="text-2xl md:text-3xl font-bold text-center uppercase">
         Veja o que as pessoas falam sobre o nosso atendimento
       </div>
 

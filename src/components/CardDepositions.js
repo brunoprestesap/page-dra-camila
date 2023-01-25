@@ -21,7 +21,7 @@ function CardDepositions({ img, depText, depName }) {
 
       <div className="leading-normal">
         <div className="p-4">
-          <div className="md:flex md:items-center text-sm md:text-xl font-normal md:gap-5">
+          <div className="md:flex md:items-center text-base md:text-xl font-normal md:gap-5">
             <FaQuoteLeft className="invisible md:visible" size={25} />
             {depText}
             <FaQuoteRight className="invisible md:visible" size={25} />
