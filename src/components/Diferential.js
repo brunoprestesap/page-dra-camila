@@ -2,16 +2,16 @@ import React from 'react'
 
 import CardBeneficios from "./CardBeneficios";
 import {
-  FaLaptopMedical,
   FaHandHoldingHeart,
   FaClock,
   FaUserMd,
+  FaHandHoldingMedical,
 } from "react-icons/fa";
 
 function Diferentials() {
   const contents = [
     {
-      icon: <FaLaptopMedical />,
+      icon: <FaHandHoldingMedical />,
       title: "Atendimento humanizado ",
       text: "Fazemos questão de uma escuta atenta e humanizada. Prezamos pelo cuidado e humanização nos atendimentos por meio de um atendimento acolhedor. Atuamos com base na ética, empatia e respeito pela vida, com objetivo de melhorar cada vez mais sua qualidade de vida.",
     },

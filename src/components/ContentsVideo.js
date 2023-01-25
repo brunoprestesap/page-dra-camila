@@ -5,12 +5,10 @@ import depressao from '../assets/depressao.mp4'
 import babyblues from '../assets/babyblues.mp4'
 import depressaoCoisaSeria from '../assets/depressao-coisa-seria.mp4'
 import mitos from '../assets/mitos.mp4'
-import primeiraConsulta from '../assets/primeira-consulta.mp4'
 import depressaoCapa from '../assets/capa/depressao.jpg'
 import babybluesCapa from '../assets/capa/baby-blues.jpg'
 import depressaoCoisaSeriaCapa from '../assets/capa/depresao-coisa-seria.jpg'
 import mitosCapa from '../assets/capa/depressao.jpg'
-import primeiraConsultaCapa from '../assets/capa/primeira-consulta.jpg'
 
 function Contents({ color }) {
   const contents = [
@@ -38,18 +36,12 @@ function Contents({ color }) {
         videoId: mitos,
         poster: mitosCapa
       },
-      {
-        id: '5',
-        title: 'Primeira consulta',
-        videoId: primeiraConsulta,
-        poster: primeiraConsultaCapa
-      },
   ];
 
   return (
     <div id="conteudo" className="pl-5 pr-5">
       <h2 className="text-[26px] font-bold text-center uppercase mt-8">Meus conteúdos</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-5 md:mt-5">
+      <div className="grid lg:flex lg:justify-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-5 md:mt-5">
         {contents.map((content, i) => {
           return (
             <VideoPlayer
