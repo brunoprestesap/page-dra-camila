@@ -11,10 +11,10 @@ function Hero({ color }) {
 
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50 justify-center'>
         <div className='max-w-[700px] m-auto h-full flex flex-col justify-center items-center'>
-          <h1 className='text-xl md:text-4xl font-bold text-gray-700'>
+          <h1 className='text-xl text-center mb-5 md:text-4xl font-bold text-gray-800'>
             Encontre ajuda para seus problemas emocionais com a Dra. Camila Neiva
           </h1>
-          <h2 className='text-xl md:text-2xl font-bold text-gray-700'>
+          <h2 className='text-xl text-justify md:text-2xl font-bold text-gray-800'>
             Estou aqui para ouvir suas preocupações e junto com você buscar maneiras de melhorar sua saúde mental e reencontrar sua paz e bem-estar.
             Vamos juntos definir o melhor plano de tratamento para você, seja ele com terapia, mudanças no estilo de vida, medicamentos ou uma combinação deles.
           </h2>
