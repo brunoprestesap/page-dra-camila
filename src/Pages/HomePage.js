@@ -1,6 +1,6 @@
 import HeroContent from "../components/Hero";
 import BtnUp from "../components/BtnUp";
-import NavBar from "../components/NavBar";
+// import NavBar from "../components/NavBar";
 import ContentsVideo from "../components/ContentsVideo.js"
 import Depositions from "../components/Depositions";
 import Diferentials from "../components/Diferential";
@@ -25,7 +25,7 @@ function HomePage() {
 
         <div className="container mx-auto transform duration-500">
           {/* NavBar Component */}
-          <NavBar color={currentColor} />
+          {/* <NavBar color={currentColor} /> */}
 
           {/* Hero area */}
           <HeroContent color={currentColor} />
@@ -41,9 +41,6 @@ function HomePage() {
 
           {/* Diferentials area */}
           <Diferentials />
-
-          {/* Form Agendamento */}
-          <FormScheduler color={currentColor} />
 
           {/* Content Area */}
           <ContentsVideo color={currentColor} />
