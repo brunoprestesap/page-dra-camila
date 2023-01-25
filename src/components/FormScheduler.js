@@ -24,7 +24,7 @@ function FormScheduler({ color }) {
             target="_blank"
             rel="noreferrer"
           >
-            <div className="flex content-center justify-around">
+            <div className="flex justify-center items-center gap-3 md:gap-5 justify-center">
               <FaWhatsapp size={30} />
               <h2 className="text-xl md:text-2xl">Agende sua consulta</h2>
             </div>
