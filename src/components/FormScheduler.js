@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function FormScheduler({ color }) {
   return (
-    <div id="scheduler" className="flex items-center flex-col p-5">
+    <div id="scheduler" className="flex items-center flex-col my-8 p-5">
       <h2 className="text-2xl md:text-4xl mb-5 font-bold text-center uppercase">
         AGENDE SUA CONSULTA
       </h2>
