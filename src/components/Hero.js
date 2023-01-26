@@ -26,7 +26,7 @@ function Hero({ color }) {
           <h1 className="text-3xl text-center mb-5 md:text-4xl font-bold text-orange-900">
             Dra. Camila Neiva
           </h1>
-          <h2 className="text-sm text-justify md:text-lg text-orange-900 rounded-2xl bg-orange-100 p-3 leading-6">
+          <h2 className="text-sm text-justify md:text-lg text-orange-900 rounded-2xl bg-orange-100 p-3 leading-6 bg-opacity-50">
           Tenho 38 anos, sou goiana de coração, médica formada pela Universidade Federal do Amapá.
           Cursei pós-graduação em Psiquiatria pelo Albert Einstein do Rio de Janeiro e Psiquiatria Intervencionista pelo Hospital de Clínicas da USP. Além disso, fiz Enfermagem e Mestrado pela UNICAMP.
           Trabalho desde 2019 ajudando pessoas a encontrar equilíbrio e tranquilidade emocional. 
