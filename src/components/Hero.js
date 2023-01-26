@@ -1,29 +1,49 @@
-import React from 'react'
-
-// import Presentation from "./Presentation";
-import hero from "../assets/hero.jpg";
+import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
+import bgHero from "../assets/hero.jpg";
 
 function Hero({ color }) {
   return (
     <div id="hero">
+      <img
+        className="w-full h-screen object-cover"
+        src={bgHero}
+        alt="hero top"
+      ></img>
 
-      <img className="w-full h-screen object-cover" src={hero} alt="hero"></img>
-
-      <div className='w-full h-screen absolute top-0 left-0 bg-white/50 justify-center'>
-        <div className='max-w-[700px] m-auto h-full flex flex-col justify-center items-center'>
-          <h1 className='text-xl text-center mb-5 md:text-4xl font-bold text-gray-800'>
-            Encontre ajuda para seus problemas emocionais com a Dra. Camila Neiva
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 justify-center">
+        <div className="max-w-[700px] m-auto h-full flex flex-col justify-center items-center px-5">
+          <h1 className="text-3xl text-center mb-5 md:text-4xl font-bold text-gray-800">
+            Encontre ajuda para seus problemas emocionais com a Dra. Camila
+            Neiva
           </h1>
-          <h2 className='text-xl text-justify md:text-2xl font-bold text-gray-800'>
-            Estou aqui para ouvir suas preocupações e junto com você buscar maneiras de melhorar sua saúde mental e reencontrar sua paz e bem-estar.
-            Vamos juntos definir o melhor plano de tratamento para você, seja ele com terapia, mudanças no estilo de vida, medicamentos ou uma combinação deles.
+          <h2 className="text-xl text-justify md:text-2xl font-bold text-gray-200 rounded-2xl bg-gray-800 p-8">
+            Estou aqui para ouvir suas preocupações e junto com você buscar
+            maneiras de melhorar sua saúde mental e reencontrar sua paz e
+            bem-estar. Vamos juntos definir o melhor plano de tratamento para
+            você, seja ele com terapia, mudanças no estilo de vida, medicamentos
+            ou uma combinação deles.
           </h2>
         </div>
-      </div>
 
-      {/* <div className="transform duration-500 hover:shadow-2xl hover:-translate-y-1 relative">
-        <Presentation color={color} />
-      </div> */}
+        <div className="absolute bottom-32 left-20">
+          <button
+            className="p-3 md:p-5 w-80 text-white rounded-2xl transform duration-500 hover:-translate-y-1"
+            style={{ background: color }}
+          >
+            <a
+              href="https://wa.me/5596981163765"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex justify-center items-center gap-3 md:gap-5 justify-center">
+                <FaWhatsapp size={30} />
+                <h2 className="text-xl md:text-2xl">Agende sua consulta</h2>
+              </div>
+            </a>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
