@@ -1,5 +1,4 @@
 import React from "react";
-import { FaWhatsapp } from "react-icons/fa";
 import bgHero from "../assets/hero.jpg";
 
 function Hero({ color }) {
