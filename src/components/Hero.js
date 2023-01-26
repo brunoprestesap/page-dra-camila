@@ -1,6 +1,7 @@
 import React from "react";
 import bgHero from "../assets/hero.jpg";
 import CardExperience from "./CardExperience";
+import imgLogo from "../assets/logo.png"
 
 function Hero({ color }) {
   return (
@@ -12,6 +13,11 @@ function Hero({ color }) {
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
+
+        <div className="invisible md:visible absolute top-0 left-0 md:w-64 lg:w-80 p-5 bg-gray-700 rounded-br-xl">
+          <img src={imgLogo} alt="logomarca"/>
+        </div>
+
         <div className="invisible md:visible absolute top-0 right-0 max-w-[700px] w-52 lg:w-72 m-auto h-full">
           <CardExperience />
         </div>
