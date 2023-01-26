@@ -24,24 +24,7 @@ function Hero({ color }) {
             você, seja ele com terapia, mudanças no estilo de vida, medicamentos
             ou uma combinação deles.
           </h2>
-        </div>
-
-        <div className="absolute bottom-32 left-20">
-          <button
-            className="p-3 md:p-5 w-80 text-white rounded-2xl transform duration-500 hover:-translate-y-1"
-            style={{ background: color }}
-          >
-            <a
-              href="https://wa.me/5596981163765"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="flex justify-center items-center gap-3 md:gap-5 justify-center">
-                <FaWhatsapp size={30} />
-                <h2 className="text-xl md:text-2xl">Agende sua consulta</h2>
-              </div>
-            </a>
-          </button>
+          
         </div>
       </div>
     </div>
