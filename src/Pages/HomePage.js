@@ -23,7 +23,7 @@ function HomePage() {
         {/* BtnArrowUp Component */}
         <BtnUp color={currentColor} />
 
-        <div className="container mx-auto transform duration-500">
+        <div className="transform mx-auto duration-500">
           {/* NavBar Component */}
           {/* <NavBar color={currentColor} /> */}
 
