@@ -5,13 +5,14 @@ function Hero({ color }) {
   return (
     <div id="hero">
       <img
-        className="w-full h-screen object-cover"
+        className="w-full h-screen object-cover object-top"
         src={bgHero}
         alt="hero top"
       ></img>
 
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 justify-center">
-        <div className="max-w-[700px] m-auto h-full flex flex-col justify-center items-center px-5">
+      <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
+        <div className="max-w-[700px] m-auto h-full flex flex-col justify-end px-5 py-20">
+
           <h1 className="text-3xl text-center mb-5 md:text-4xl font-bold text-gray-800">
             Encontre ajuda para seus problemas emocionais com a Dra. Camila
             Neiva
