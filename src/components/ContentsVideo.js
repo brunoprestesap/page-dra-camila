@@ -40,7 +40,7 @@ function Contents({ color }) {
 
   return (
     <div id="conteudo" className="pl-5 pr-5">
-      <h2 className="text-[26px] font-bold text-center uppercase mt-8">Meus conteúdos</h2>
+      <h2 className="text-[26px] font-bold text-center mt-8">Meus conteúdos</h2>
       <div className="grid lg:flex lg:justify-center grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5 gap-5 md:mt-5">
         {contents.map((content, i) => {
           return (

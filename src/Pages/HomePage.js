@@ -12,7 +12,7 @@ function HomePage() {
   const colors = ["#FF884B", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
 
   const currentColor = colors[0];
-  const currentMode = "dark";
+  const currentMode = "white";
 
   return (
     <div className={currentMode === "dark" ? "dark" : ""}>
@@ -35,9 +35,6 @@ function HomePage() {
 
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
-
-          {/* Form Agendamento */}
-          <FormScheduler color={currentColor} />
 
           {/* Diferentials area */}
           <Diferentials />

@@ -37,7 +37,7 @@ function Contents({ color }) {
   return (
     <div id="conteudo" className="pl-5 pr-5">
       <div className="p-5 pt-10">
-        <div className="text-[26px] font-bold text-center uppercase">
+        <div className="text-[26px] font-bold text-center">
           Meus Conteúdos
         </div>
       </div>

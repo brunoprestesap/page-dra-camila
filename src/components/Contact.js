@@ -5,7 +5,7 @@ function Contact() {
 
         <div id="contact" className="pl-5 pr-5">
             <div className="p-5">
-                <div className="flex justify-center gap-3 text-4xl font-bold text-center uppercase">
+                <div className="flex justify-center gap-3 text-4xl font-bold text-center">
                     <FaMapMarkedAlt />
                     Onde estamos
                 </div>

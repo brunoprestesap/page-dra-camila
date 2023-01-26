@@ -24,15 +24,13 @@ function Hero({ color }) {
 
         <div className="max-w-[700px] m-auto h-full flex flex-col justify-end px-5 py-20">
           <h1 className="text-3xl text-center mb-5 md:text-4xl font-bold text-gray-800">
-            Encontre ajuda para seus problemas emocionais com a Dra. Camila
-            Neiva
+            Dra. Camila Neiva
           </h1>
-          <h2 className="text-xl text-justify md:text-2xl font-bold text-gray-200 rounded-2xl bg-gray-800 p-8">
-            Estou aqui para ouvir suas preocupações e junto com você buscar
-            maneiras de melhorar sua saúde mental e reencontrar sua paz e
-            bem-estar. Vamos juntos definir o melhor plano de tratamento para
-            você, seja ele com terapia, mudanças no estilo de vida, medicamentos
-            ou uma combinação deles.
+          <h2 className="text-base text-justify md:text-lg text-gray-200 rounded-2xl bg-gray-700 p-5">
+          Tenho 38 anos, sou goiana de coração, médica formada pela Universidade Federal do Amapá.
+          Cursei pós-graduação em Psiquiatria pelo Albert Einstein do Rio de Janeiro e Psiquiatria Intervencionista pelo Hospital de Clínicas da USP. Além disso, fiz Enfermagem e Mestrado pela UNICAMP.
+          Trabalho desde 2019 ajudando pessoas a encontrar equilíbrio e tranquilidade emocional. 
+          Já trabalhei também em Centro de Atenção Psicossocial infantil (CAPSi), Centro de Atenção Psicossocial álcool e drogas (CAPSAd) e Clínica de Reabilitação. Prezo pelo atendimento responsável e humanizado e será uma grande satisfação atender você e poder te ajudar também.
           </h2>
         </div>
       </div>
