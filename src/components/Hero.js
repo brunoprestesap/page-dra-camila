@@ -14,7 +14,7 @@ function Hero({ color }) {
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
 
-        <div className="absolute top-[480px] left-24 lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-orange-900">
+        <div className="absolute top-[30rem] left-24 lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-orange-900">
           <img src={imgLogo} alt="logomarca"/>
         </div>
 
