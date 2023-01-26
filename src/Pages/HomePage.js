@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <div className={currentMode === "dark" ? "dark" : ""}>
       <div
-        className="bg-gray-50 text-gray-700 dark:bg-main-dark-bg
+        className="bg-orange-50 text-orange-900 dark:bg-main-dark-bg
       dark:text-gray-200"
       >
         {/* BtnArrowUp Component */}
