@@ -33,11 +33,9 @@ function Diferentials() {
   ];
 
   return (
-    <div id="diferenciais" className="pl-5 pr-5">
-      <div className="p-5 pt-10">
-        <div className="text-[26px] font-bold text-center">
-          Nossos diferenciais
-        </div>
+    <div id="diferenciais" className="px-8 py-5">
+      <div>
+        <h2 className='text-xl md:text-3xl font-bold text-center'>Nossos diferenciais</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-5 pt-5">
         {contents.map((content, idx) => {
