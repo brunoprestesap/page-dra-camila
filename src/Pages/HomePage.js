@@ -7,6 +7,7 @@ import Diferentials from "../components/Diferential";
 import Treatment from "../components/Treatment";
 import FormScheduler from "../components/FormScheduler";
 import Contact from "../components/Contact";
+import CardCta from "../components/CardCta"
 
 function HomePage() {
   const colors = ["#CDBCA8", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -29,6 +30,8 @@ function HomePage() {
 
           {/* Hero area */}
           <HeroContent color={currentColor} />
+
+          <CardCta color={currentColor} />
 
           {/* Treatments area */}
           <Treatment />
