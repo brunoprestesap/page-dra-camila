@@ -30,13 +30,11 @@ function Treatment() {
   ];
 
   return (
-    <div id="tratamentos" className="pl-5 pr-5">
-      <div className="p-5 pt-10">
-        <div className="text-[26px] font-bold text-center uppercase">
-          Em que podemos te ajudar
-        </div>
+    <div id="tratamentos" className="px-5 md:px-12">
+      <div className="my-5">
+        <h2 className='text-3xl font-bold text-center'>Em que podemos te ajudar</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-5 pt-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {contents.map((content) => {
           return (
             <CardTreatment
