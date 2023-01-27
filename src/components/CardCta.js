@@ -15,8 +15,7 @@ const CardCta = ({ color }) => {
         </h2>
 
         <button
-          className="p-3 md:p-5 w-80 my-5 text-white rounded-2xl transform duration-500 hover:-translate-y-1"
-          style={{ background: color }}
+          className="p-3 md:p-5 w-80 my-5 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#CDBCA8] hover:bg-stone-700"
         >
           <a
             href="https://wa.me/5596981163765"
