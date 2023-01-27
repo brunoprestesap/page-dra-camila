@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const CardCta = ({ color }) => {
   return (
     <div id="cta" className="flex justify-center py-12">
-      <div className="flex flex-col md:w-2/5 w-full mx-5 items-center bg-orange-100 backdrop-blur-sm rounded-xl py-5 px-5 bg-opacity-50">
+      <div className="flex flex-col md:w-2/5 w-full mx-5 items-center bg-orange-100 backdrop-blur-sm rounded-xl py-5 px-5">
 
         <h2 className="text-stone-700 leading-6 text-justify">
           Estou aqui para ouvir suas preocupações e junto com você buscar
