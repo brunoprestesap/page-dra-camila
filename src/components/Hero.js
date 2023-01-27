@@ -31,16 +31,11 @@ function Hero({ color }) {
           </h1>
 
           <h2 className="text-sm text-justify md:text-lg rounded-2xl bg-[#CDBCA8] text-stone-700 p-3 leading-6 bg-opacity-60">
-            Tenho 38 anos, sou goiana de coração, médica formada pela
-            Universidade Federal do Amapá. Cursei pós-graduação em Psiquiatria
-            pelo Albert Einstein do Rio de Janeiro e Psiquiatria
-            Intervencionista pelo Hospital de Clínicas da USP. Além disso, fiz
-            Enfermagem e Mestrado pela UNICAMP. Trabalho desde 2019 ajudando
-            pessoas a encontrar equilíbrio e tranquilidade emocional. Já
-            trabalhei também em Centro de Atenção Psicossocial infantil (CAPSi),
-            Centro de Atenção Psicossocial álcool e drogas (CAPSAd) e Clínica de
-            Reabilitação. Prezo pelo atendimento responsável e humanizado e será
-            uma grande satisfação atender você e poder te ajudar também.
+            Tenho 38 anos, sou goiana de coração, médica formada pela Universidade Federal do Amapá.
+            Cursei pós-graduação em Psiquiatria pelo Albert Einstein do RJ e Psiquiatria Intervencionista pelo HC-USP. 
+            Além disso, fiz Enfermagem e Mestrado pela UNICAMP. Trabalho desde 2019 ajudando pessoas a encontrar equilíbrio e tranquilidade emocional. 
+            Já trabalhei também em CAPS infantil, CAPS Álcool e drogas e Clínica de Reabilitação. 
+            Prezo pelo atendimento responsável e humanizado e será uma grande satisfação atender você e poder te ajudar também.
           </h2>
         </div>
       </div>
