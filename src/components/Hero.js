@@ -7,7 +7,7 @@ function Hero({ color }) {
   return (
     <div id="hero">
       <img
-        className="w-full h-screen object-cover object-top"
+        className="w-full h-screen object-cover"
         src={bgHero}
         alt="hero top"
       ></img>
