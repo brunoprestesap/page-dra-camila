@@ -21,7 +21,7 @@ function Hero({ color }) {
           <CardExperience />
         </div>
 
-        <div className="flex flex-col md:absolute md:bottom-0 md:left-0 justify-left max-w-[700px] m-auto h-full justify-end md:justify-left px-5 py-12">
+        <div className="flex flex-col md:absolute md:bottom-0 md:left-0 items-center max-w-[700px] m-auto h-full justify-end md:justify-left px-5 py-12">
           <div className="backdrop-blur-sm lg:invisible w-52 md:w-64 lg:w-80 px-8 py-5 lg:rounded-br-xl bg-[#CDBCA8]">
             <img src={imgLogo} alt="logomarca" />
           </div>
