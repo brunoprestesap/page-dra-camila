@@ -9,8 +9,8 @@ function CardTreatment({ id, icon, title, text }) {
       <div className="p-5">
         <div className="mb-5 flex justify-center text-6xl">{icon}</div>
         <div>
-          <h5 className="text-2xl font-bold text-center tracking-tight mb-3 text-orange-900">{title}</h5>
-          <p className="leading-7 text-orange-900">{text}</p>
+          <h5 className="text-2xl font-bold text-center tracking-tight mb-3 text-stone-700">{title}</h5>
+          <p className="leading-7 text-stone-700">{text}</p>
         </div>
       </div>
     </div>

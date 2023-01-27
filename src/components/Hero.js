@@ -13,7 +13,7 @@ function Hero({ color }) {
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
-        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8]">
+        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8] bg-opacity-60">
           <img src={imgLogo} alt="logomarca" />
         </div>
 
@@ -30,7 +30,7 @@ function Hero({ color }) {
             Dra. Camila Neiva
           </h1>
 
-          <h2 className="text-sm text-justify md:text-lg rounded-2xl bg-[#CDBCA8] text-stone-900 p-3 leading-6 bg-opacity-80">
+          <h2 className="text-sm text-justify md:text-lg rounded-2xl bg-[#CDBCA8] text-stone-700 p-3 leading-6 bg-opacity-60">
             Tenho 38 anos, sou goiana de coração, médica formada pela
             Universidade Federal do Amapá. Cursei pós-graduação em Psiquiatria
             pelo Albert Einstein do Rio de Janeiro e Psiquiatria
