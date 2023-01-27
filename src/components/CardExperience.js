@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardExperience = () => {
   return (
-    <div className="w-full mx-auto group shadow-2xl rounded-bl-2xl transform duration-500 hover:-translate-y-2 bg-orange-100 bg-opacity-50 text-orange-900 p-4 lg:py-8 lg:px-5">
+    <div className="w-full mx-auto group shadow-2xl rounded-bl-2xl transform duration-500 hover:-translate-y-2 bg-[#CDBCA8] bg-opacity-50 text-stone-700 p-4 lg:py-8 lg:px-5">
         <h2 className='text-xl lg:text-3xl'>Experiência</h2>
 
         <div className='flex justify-between items-center mt-8 border-l-4 pl-2 border-l-orange-600'>

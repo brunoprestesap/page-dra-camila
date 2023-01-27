@@ -13,7 +13,7 @@ function Hero({ color }) {
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
-        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-orange-900">
+        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8]">
           <img src={imgLogo} alt="logomarca" />
         </div>
 
@@ -22,15 +22,15 @@ function Hero({ color }) {
         </div>
 
         <div className="flex flex-col items-center max-w-[700px] m-auto h-full flex flex-col justify-end px-5 py-12">
-          <div className="lg:invisible w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-orange-900">
+          <div className="lg:invisible w-52 md:w-64 lg:w-80 px-8 py-5 lg:rounded-br-xl bg-[#CDBCA8]">
             <img src={imgLogo} alt="logomarca" />
           </div>
 
-          <h1 className="invisible lg:visible text-3xl text-center mb-5 md:text-4xl font-bold text-orange-900">
+          <h1 className="invisible lg:visible text-3xl text-center mb-5 md:text-4xl font-bold text-stone-700">
             Dra. Camila Neiva
           </h1>
 
-          <h2 className="text-sm text-justify md:text-lg text-orange-900 rounded-2xl bg-orange-100 p-3 leading-6 bg-opacity-50">
+          <h2 className="text-sm text-justify md:text-lg rounded-2xl bg-[#CDBCA8] text-stone-900 p-3 leading-6 bg-opacity-80">
             Tenho 38 anos, sou goiana de coração, médica formada pela
             Universidade Federal do Amapá. Cursei pós-graduação em Psiquiatria
             pelo Albert Einstein do Rio de Janeiro e Psiquiatria

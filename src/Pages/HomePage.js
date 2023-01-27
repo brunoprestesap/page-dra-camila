@@ -9,7 +9,7 @@ import FormScheduler from "../components/FormScheduler";
 import Contact from "../components/Contact";
 
 function HomePage() {
-  const colors = ["#F7EAD9", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
+  const colors = ["#CDBCA8", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
 
   const currentColor = colors[0];
   const currentMode = "white";
@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <div className={currentMode === "dark" ? "dark" : ""}>
       <div
-        className="bg-orange-50 text-orange-900 dark:bg-main-dark-bg
+        className="bg-[#CDBCA8] text-stone-700 dark:bg-main-dark-bg
       dark:text-gray-200"
       >
         {/* BtnArrowUp Component */}
