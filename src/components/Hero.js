@@ -22,11 +22,11 @@ function Hero({ color }) {
         </div>
 
         <div className="flex flex-col md:absolute md:bottom-0 md:left-0 max-w-[700px] m-auto h-full justify-end md:justify-left px-5 py-12">
-          <div className="backdrop-blur-sm lg:invisible w-52 md:w-64 lg:w-80 px-8 py-5 lg:rounded-br-xl bg-[#CDBCA8]">
+          {/* <div className="backdrop-blur-sm lg:invisible w-52 md:w-64 lg:w-80 px-8 py-5 lg:rounded-br-xl bg-[#CDBCA8]">
             <img src={imgLogo} alt="logomarca" />
-          </div>
+          </div> */}
 
-          <h1 className="invisible lg:visible text-left text-3xl mb-5 md:text-4xl font-bold text-stone-700">
+          <h1 className="text-left text-3xl mb-5 md:text-4xl font-bold text-stone-700">
             Dra. Camila Neiva
           </h1>
 
