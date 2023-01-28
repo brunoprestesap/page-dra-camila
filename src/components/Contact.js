@@ -12,7 +12,7 @@ function Contact() {
             </div>
 
             <div className="md:flex gap-5">
-                <div className="w-full shadow-2xl shadow-stone-500/50">
+                <div className="w-full shadow-2xl shadow-stone-500/50 mb-5">
                     <iframe
                         className="w-full rounded-xl"
                         title="Onde eu atendo"
@@ -24,7 +24,7 @@ function Contact() {
                     </iframe>
                 </div>
 
-                <div className="flex flex-col p-8 text-left gap-2 bg-orange-100 shadow-2xl shadow-stone-500/50 rounded-2xl m-5">
+                <div className="flex flex-col p-8 text-left gap-2 bg-orange-100 shadow-2xl shadow-stone-500/50 rounded-2xl">
                     <div className="flex gap-3 items-center text-left">
                         <FaMapMarkerAlt className="text-4xl mb-3"/>
                         <h2 className="font-bold text-2xl text-stone-700">Nosso endereço</h2>
