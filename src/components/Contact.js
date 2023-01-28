@@ -32,7 +32,7 @@ function Contact() {
 
                     <div className="flex text-left">
                         
-                        <h3 className="text-stone-700 text-xl">Rua Manoel Eudóxio Pereira, 826 - Centro. CEP 68900-021. Macapá / Amapá.</h3>
+                        <h3 className="text-stone-700 text-base md:text-xl">Rua Manoel Eudóxio Pereira, 826 - Centro. CEP 68900-021. Macapá / Amapá.</h3>
 
                     </div>
 
