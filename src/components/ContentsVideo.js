@@ -62,7 +62,7 @@ function Contents({ color }) {
     <div id="depoimentos">
       <div className="my-5">
         <h2 className="text-xl md:text-3xl font-bold text-center">
-          O que as pessoas falam sobre o nosso atendimento
+          Meus conteúdos
         </h2>
       </div>
 
