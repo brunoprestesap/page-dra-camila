@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillPersonFill } from "react-icons/bs";
+import { RiUserStarFill } from 'react-icons/ri'
 import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 function CardDepositions({ depText, depName }) {
@@ -7,7 +7,7 @@ function CardDepositions({ depText, depName }) {
     <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 py-5 group transform duration-500 hover:-translate-y-2 bg-orange-100 dark:bg-gray-800 rounded-2xl overflow-hidden cursor-pointer">
       <div className="flex flex-col justify-center items-center">
         <div className="rounded-full border-2 p-5 bg-[#CDBCA8] border-[#CDBCA8] my-3">
-          <BsFillPersonFill size={50}/>
+          <RiUserStarFill size={50}/>
         </div>
         <div className="flex justify-center gap-2">
           <FaStar color="FF884B" />
