@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div id="footer" className="bg-stone-700 p-5">
+    <div id="footer" className="bg-stone-700 p-5 md:p-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div>
           <img src={logoImg} className="w-5/6" alt="logo"/>
