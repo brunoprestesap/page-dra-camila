@@ -28,7 +28,7 @@ function Contact() {
             Contato
           </h1>
           <form
-            action="https://getform.io/f/d26e8963-ca6b-48a6-a9c0-735697eb280d"
+            action="https://getform.io/f/73cd82b3-0511-4dc0-845b-0c8a5b07ca19"
             method="POST"
             encType="multipart/form-data"
           >
