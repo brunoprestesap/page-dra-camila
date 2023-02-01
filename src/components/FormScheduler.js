@@ -2,11 +2,11 @@ import React from "react";
 
 import { FaWhatsapp } from "react-icons/fa";
 
-function FormScheduler({ color }) {
+function FormScheduler() {
   return (
-    <div id="cta" className="flex justify-center py-12">
-      <div className="flex flex-col md:w-2/5 w-full mx-5 items-center shadow-2xl shadow-gray-500/50 bg-orange-100 backdrop-blur-sm rounded-xl py-5 px-5">
-        <h2 className=" text-base md:text-xl leading-7 text-left md:text-center">
+    <div id="cta" className="flex justify-center my-8">
+      <div className="flex flex-col w-full md:w-2/5 mx-5 items-center shadow-2xl shadow-gray-500/50 bg-orange-100 rounded-xl p-5">
+        <h2 className="text-base md:text-xl leading-7 text-left md:text-center">
           O acompanhamento psiquiátrico é uma das ferramentas do tratamento do
           sofrimento mental. Assim como o corpo, nossa mente também precisa de
           atenção. Agende sua consulta e juntos encontraremos o melhor plano de

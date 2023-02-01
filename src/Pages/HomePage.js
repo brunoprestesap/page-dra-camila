@@ -46,7 +46,7 @@ function HomePage() {
           <ContentsVideo color={currentColor} />
 
           {/* Form Agendamento */}
-          <FormScheduler color={currentColor} />
+          <FormScheduler />
 
           {/* Form Agendamento */}
           <Contact color={currentColor} />          
