@@ -23,7 +23,7 @@ function Contact() {
           ></iframe>
         </div>
 
-        <div className="my-5 md:my-0 p-5 bg-orange-100 shadow-2xl shadow-stone-500/50 rounded-2xl">
+        <div className="my-5 md:my-0 p-5 bg-[#CDBCA8] bg-opacity-60 shadow-2xl shadow-stone-500/50 rounded-2xl">
           <h1 className="py-4 md:py-0 text-4xl font-bold text-center text-stone-700">
             Contato
           </h1>
