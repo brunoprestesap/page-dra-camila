@@ -22,13 +22,14 @@ function Hero({ color }) {
 
           <div className="backdrop-opacity-10 rounded-2xl bg-white p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
 
-            <h1 className="text-6xl lg:text-6xl font-bold">
-              Dra.<br /> Camila<br />Neiva
+            <h1 className="text-6xl uppercase lg:text-6xl">
+              Dra.
             </h1>
-            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#003E53]" />
+            <h1 className="text-6xl uppercase lg:text-6xl font-bold">Camila<br/>Neiva</h1>
+            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#CDBCA8]" />
             <div className="my-10">
               <h2 className="text-2xl lg:text-4xl font-medium">
-                Psiquiatra em Macapa/AP
+                Psiquiatra em Macapá/AP
               </h2>
               <h2 className="text-lg lg:text-2xl">
                 Atendimento on-line e presencial
