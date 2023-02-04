@@ -13,7 +13,7 @@ function Hero({ color }) {
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
-        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8] bg-opacity-60 shadow-2xl shadow-stone-200/50">
+        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#003E53] bg-opacity-60 shadow-2xl shadow-stone-200/50">
           <img src={imgLogo} alt="logomarca" />
         </div>
 
@@ -32,19 +32,19 @@ function Hero({ color }) {
             <h1 className="text-4xl lg:text-6xl font-bold text-stone-200">
               Dra. Camila Neiva
             </h1>
-            <hr className="w-4/6 text-white my-5" />
-            <h2 className="text-2xl font-medium text-stone-200">
+            <hr className="w-4/6 lg:w-5/6 text-white my-5" />
+            <h2 className="text-2xl lg:text-4xl font-medium text-stone-200">
               Cuide da sua saude mental e mude de vida a partir da primeira consulta
             </h2>
-            <h2 className="text-lg mt-3 text-stone-200">
+            <h2 className="text-lg lg:text-2xl mt-3 text-stone-200">
               Sua vida vai ser dividida entre antes e depois desta consulta onde vamos decidir juntos qual sera o melhor tratamento para voce
             </h2>
 
-            <div className="my-5">
+            <div className="my-5 bg-[#003E53] p-3 rounded-lg lg:w-3/6">
               <h2 className="text-stone-200 font-bold">
                 Consulta de seg. a sexta
               </h2>
-              <hr className="w-3/6 my-3 text-white" />
+              <hr className="w-full my-3 text-white" />
               <h2 className="text-stone-200 font-bold">
                 Consultorio de saude mental<br />Centro de Macapa - AP
               </h2>
