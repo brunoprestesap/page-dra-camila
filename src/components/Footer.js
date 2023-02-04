@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div id="footer" className="bg-stone-700 p-5 md:p-12">
+    <div id="footer" className="bg-[#003E53] p-5 md:p-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div>
           <img src={logoImg} className="w-5/6" alt="logo"/>
@@ -91,14 +91,14 @@ const Footer = () => {
             <h2 className="text-base my-3 mx-3 text-stone-200">Youtube</h2>
           </div>
         </div>
-        <div>
+        <div className="flex flex-col">
           <h2 className="text-2xl font-bold text-stone-200">
             Reencontre sua paz<br/> e bem-estar
           </h2>
           <h2 className="text-xl text-stone-200 my-5">
             Agende sua consulta<br/> agora conosco
           </h2>
-          <button className="p-3 w-72 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#CDBCA8] hover:bg-stone-700 hover:border-2 hover:border-stone-200">
+          <button className="p-3 w-72 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#003E53]/70 border-2 border-white hover:bg-[#003E53]/90 hover:border-2 hover:border-stone-800">
             <a
               href="https://wa.me/5596981163765"
               target="_blank"
