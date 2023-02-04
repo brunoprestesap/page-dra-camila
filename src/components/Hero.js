@@ -1,5 +1,5 @@
 import React from "react";
-import bgHero from "../assets/hero.png";
+import bgHero from "../assets/hero.jpg";
 import CardExperience from "./CardExperience";
 import imgLogo from "../assets/logo.png";
 
@@ -18,35 +18,29 @@ function Hero({ color }) {
           <CardExperience />
         </div>
 
-        <div id="sobre" className="flex md:absolute lg:bottom-0 lg:left-0 max-w-[700px] lg:h-4.5/6 justify-end lg:justify-left lg:my-28 lg:mx-5">
+        <div id="sobre" className="flex absolute bottom-24 left-7">
 
-          <div className="backdrop-blur-sm rounded-2xl bg-[#003E53]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
+          <div className="backdrop-opacity-10 rounded-2xl bg-white p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
 
-            <h1 className="text-4xl lg:text-6xl font-bold text-stone-200">
-              Dra. Camila Neiva
+            <h1 className="text-6xl lg:text-6xl font-bold">
+              Dra.<br /> Camila<br />Neiva
             </h1>
-            <hr className="w-4/6 lg:w-5/6 text-white my-5" />
-            <h2 className="text-2xl lg:text-4xl font-medium text-stone-200">
-              Cuide da sua saude mental e mude de vida a partir da primeira consulta
-            </h2>
-            <h2 className="text-lg lg:text-2xl mt-3 text-stone-200">
-              Sua vida vai ser dividida entre antes e depois desta consulta onde vamos decidir juntos qual sera o melhor tratamento para voce
-            </h2>
-
-            <div className="my-5 bg-[#003E53] p-2 lg:p-5 rounded-lg lg:w-3/6">
-              <h2 className="text-stone-200 font-bold">
-                Consulta de seg. a sexta
+            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#003E53]" />
+            <div className="my-10">
+              <h2 className="text-2xl lg:text-4xl font-medium">
+                Psiquiatra em Macapa/AP
               </h2>
-              <hr className="w-full my-3 text-white" />
-              <h2 className="text-stone-200 font-bold">
-                Consultorio de saude mental<br />Centro de Macapa - AP
+              <h2 className="text-lg lg:text-2xl">
+                Atendimento on-line e presencial
               </h2>
             </div>
 
-            <div className="bg-[#003E53] rounded-lg w-full lg:w-4/6 py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
-              <h2 className="text-white uppercase font-bold">
-                Quero agendar uma consulta
-              </h2>
+            <div className="w-full flex justify-center">
+              <button className="bg-[#003E53] rounded-lg w-full lg:w-4/6 py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
+                <h2 className="text-white uppercase font-bold">
+                  Agende sua consulta
+                </h2>
+              </button>
             </div>
 
           </div>
