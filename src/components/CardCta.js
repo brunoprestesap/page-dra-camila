@@ -4,9 +4,9 @@ import { FaWhatsapp } from "react-icons/fa";
 const CardCta = ({ color }) => {
   return (
     <div id="cta" className="flex justify-center py-12">
-      <div className="flex flex-col md:w-2/5 w-full mx-5 items-center shadow-2xl shadow-gray-500/50 bg-orange-100 backdrop-blur-sm rounded-xl py-5 px-5">
+      <div className="flex flex-col md:w-2/5 w-full mx-5 items-center shadow-xl shadow-gray-500/50 bg-[#003E53]/50 backdrop-blur-sm rounded-xl py-5 px-5">
 
-        <h2 className="text-stone-700 leading-6 text-justify">
+        <h2 className="text-white leading-6 text-justify">
           Estou aqui para ouvir suas preocupações e junto com você buscar
           maneiras de melhorar sua saúde mental e reencontrar sua paz e
           bem-estar. Vamos juntos definir o melhor plano de tratamento para
@@ -15,7 +15,7 @@ const CardCta = ({ color }) => {
         </h2>
 
         <button
-          className="p-3 md:p-5 w-80 my-5 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#CDBCA8] hover:bg-stone-700"
+          className="p-3 md:p-5 w-80 my-5 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#003E53] hover:bg-stone-700"
         >
           <a
             href="https://wa.me/5596981163765"

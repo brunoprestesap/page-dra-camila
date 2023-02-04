@@ -32,7 +32,7 @@ function Treatment() {
   return (
     <div id="tratamentos" className="px-5 md:px-12">
       <div className="my-5">
-        <h2 className='text-xl md:text-3xl font-bold text-center'>Em que podemos te ajudar</h2>
+        <h2 className='text-4xl md:text-3xl font-bold text-center'>Em que podemos te ajudar</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {contents.map((content) => {

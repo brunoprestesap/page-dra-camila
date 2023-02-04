@@ -12,8 +12,8 @@ function Hero({ color }) {
         alt="hero top"
       ></img>
 
-      <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-[#003E53]/50">
-        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8] bg-opacity-60 shadow-2xl shadow-stone-500/50">
+      <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
+        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#CDBCA8] bg-opacity-60 shadow-2xl shadow-stone-200/50">
           <img src={imgLogo} alt="logomarca" />
         </div>
 
@@ -29,11 +29,11 @@ function Hero({ color }) {
 
           <div className="backdrop-blur-sm rounded-2xl bg-[#003E53]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
 
-            <h1 className="text-4xl font-bold text-stone-200">
+            <h1 className="text-4xl lg:text-6xl font-bold text-stone-200">
               Dra. Camila Neiva
             </h1>
             <hr className="w-4/6 text-white my-5" />
-            <h2 className="text-4xl font-medium md:text-lg text-stone-200">
+            <h2 className="text-4xl font-medium text-stone-200">
               Cuide da sua saude mental e mude de vida a partir da primeira consulta
             </h2>
             <h2 className="mt-3 text-xl text-stone-200">
@@ -50,7 +50,7 @@ function Hero({ color }) {
               </h2>
             </div>
 
-            <div className="bg-[#003E53] py-5 px-8 text-center hover:border hover:border-stone-100 my-5">
+            <div className="bg-[#003E53] w-full lg:w-4/6 py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
               <h2 className="text-white uppercase font-bold">
                 Quero agendar uma consulta
               </h2>
