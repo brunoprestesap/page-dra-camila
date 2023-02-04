@@ -60,8 +60,8 @@ function Contents({ color }) {
 
   return (
     <div id="depoimentos">
-      <div className="my-5">
-        <h2 className="text-xl md:text-3xl font-bold text-center">
+      <div className="py-5">
+        <h2 className="text-4xl font-bold text-center">
           Meus conteúdos
         </h2>
       </div>

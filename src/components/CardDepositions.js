@@ -4,9 +4,9 @@ import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 function CardDepositions({ depText, depName }) {
   return (
-    <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 py-5 group transform duration-500 hover:-translate-y-2 bg-orange-100 dark:bg-gray-800 rounded-2xl overflow-hidden cursor-pointer">
+    <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 py-5 group transform duration-500 hover:-translate-y-2 bg-[#003E53]/70 dark:bg-[#003E53]/80 rounded-2xl overflow-hidden cursor-pointer">
       <div className="flex flex-col justify-center items-center">
-        <div className="rounded-full border-2 p-5 bg-[#CDBCA8] border-[#CDBCA8] my-3">
+        <div className="rounded-full border-2 p-5 bg-[#003E53]/30 border-[#003E53] my-3">
           <RiUserStarFill size={50}/>
         </div>
         <div className="flex justify-center gap-2">
@@ -22,12 +22,12 @@ function CardDepositions({ depText, depName }) {
         <div className="p-4">
           <div className="md:flex md:items-center text-base md:text-xl font-normal md:gap-5">
             <FaQuoteLeft className="invisible md:visible" size={25} />
-            {depText}
+            <h2 className="text-white">{depText}</h2>
             <FaQuoteRight className="invisible md:visible" size={25} />
           </div>
           <div className="flex flex-row mt-5 items-center font-medium tracking-tight">
-            <FaGoogle color="#FF884B" size={25} />
-            <div className="text-sm md:text-xl font-medium ml-5">{depName} - Google Locais</div>
+            <FaGoogle color="#003E53" size={25} />
+            <div className="text-sm md:text-xl font-bold ml-5">{depName} - Google Locais</div>
           </div>
         </div>
       </div>
