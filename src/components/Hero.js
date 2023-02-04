@@ -50,7 +50,7 @@ function Hero({ color }) {
               </h2>
             </div>
 
-            <div className="bg-[#003E53] w-full lg:w-4/6 py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
+            <div className="bg-[#003E53] rounded-lg w-full lg:w-4/6 py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
               <h2 className="text-white uppercase font-bold">
                 Quero agendar uma consulta
               </h2>
