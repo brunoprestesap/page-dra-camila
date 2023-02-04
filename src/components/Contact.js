@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div id="contact" className="my-8">
       <div className="m-8">
-        <h2 className="flex justify-center gap-3 text-4xl font-bold text-center text-stone-700">
+        <h2 className="flex justify-center gap-3 text-4xl font-bold text-center text-[#003E53]">
           <FaMapMarkedAlt />
           Onde estamos
         </h2>
@@ -23,8 +23,8 @@ function Contact() {
           ></iframe>
         </div>
 
-        <div className="my-5 md:my-0 p-5 bg-[#CDBCA8] bg-opacity-60 shadow-2xl shadow-stone-500/50 rounded-2xl">
-          <h1 className="py-4 md:py-0 text-4xl font-bold text-center text-stone-700">
+        <div className="my-5 md:my-0 p-5 bg-[#003E53]/70 bg-opacity-60 shadow-2xl shadow-stone-500/50 rounded-2xl">
+          <h1 className="py-4 md:py-0 text-4xl font-bold text-center text-white">
             Contato
           </h1>
           <form
@@ -34,48 +34,48 @@ function Contact() {
           >
             <div className="grid md:grid-cols-2 gap-2 w-full">
               <div className="flex flex-col">
-                <label className="text-sm py-2">Nome</label>
+                <label className="text-sm py-2 text-white font-medium">Nome</label>
                 <input
-                  className="border-2 rounded-lg p-1 flex border-gray-300 focus:ring focus:ring-orange-300"
+                  className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                   type="text"
                   name="name"
                 />
               </div>
               <div className="flex flex-col">
-                <label className="text-sm py-2">Telefone</label>
+                <label className="text-sm py-2 text-white font-medium">Telefone</label>
                 <input
-                  className="border-2 rounded-lg p-1 flex border-gray-300 focus:ring focus:ring-orange-300"
+                  className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                   type="text"
                   name="phone"
                 />
               </div>
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2">E-mail</label>
+              <label className="text-sm py-2 text-white font-medium">E-mail</label>
               <input
-                className="border-2 rounded-lg p-1 flex border-gray-300 focus:ring focus:ring-orange-300"
+                className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 type="email"
                 name="email"
               />
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2">Assunto</label>
+              <label className="text-sm py-2 text-white font-medium">Assunto</label>
               <input
-                className="border-2 rounded-lg p-1 flex border-gray-300 focus:ring focus:ring-orange-300"
+                className="border-2 rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 type="text"
                 name="subject"
               />
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2">Mensagem</label>
+              <label className="text-sm py-2 text-white font-medium">Mensagem</label>
               <textarea
-                className="border-2 rounded-lg p-1 border-gray-300 focus:ring focus:ring-orange-300"
+                className="rounded-lg p-1 border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 rows="5"
                 name="message"
               ></textarea>
             </div>
-            <button className="bg-[#CDBCA8] hover:bg-stone-700 text-gray-100 mt-4 w-full p-4 rounded-lg">
-              Enviar mensagem
+            <button className="bg-[#003E53] hover:bg-stone-700 text-gray-100 mt-4 w-full p-4 rounded-lg">
+              <h2 className="text-lg font-bold">Enviar mensagem</h2>
             </button>
           </form>
         </div>
