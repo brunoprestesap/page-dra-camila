@@ -40,7 +40,7 @@ function Hero({ color }) {
               Sua vida vai ser dividida entre antes e depois desta consulta onde vamos decidir juntos qual sera o melhor tratamento para voce
             </h2>
 
-            <div className="my-5 bg-[#003E53] p-3 rounded-lg lg:w-3/6">
+            <div className="my-5 bg-[#003E53] p-2 lg:p-5 rounded-lg lg:w-3/6">
               <h2 className="text-stone-200 font-bold">
                 Consulta de seg. a sexta
               </h2>
