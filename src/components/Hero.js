@@ -1,7 +1,6 @@
 import React from "react";
 import bgHero from "../assets/hero.jpg";
 import CardExperience from "./CardExperience";
-import imgLogo from "../assets/logo.png";
 
 function Hero({ color }) {
   return (
