@@ -33,14 +33,14 @@ function Hero({ color }) {
               Dra. Camila Neiva
             </h1>
             <hr className="w-4/6 text-white my-5" />
-            <h2 className="text-4xl font-medium text-stone-200">
+            <h2 className="text-2xl font-medium text-stone-200">
               Cuide da sua saude mental e mude de vida a partir da primeira consulta
             </h2>
-            <h2 className="mt-3 text-xl text-stone-200">
+            <h2 className="text-lg mt-3 text-stone-200">
               Sua vida vai ser dividida entre antes e depois desta consulta onde vamos decidir juntos qual sera o melhor tratamento para voce
             </h2>
 
-            <div className="my-8">
+            <div className="my-5">
               <h2 className="text-stone-200 font-bold">
                 Consulta de seg. a sexta
               </h2>
