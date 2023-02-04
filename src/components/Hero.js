@@ -13,19 +13,12 @@ function Hero({ color }) {
       ></img>
 
       <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
-        <div className="invisible lg:visible absolute lg:top-0 lg:left-0 w-52 md:w-64 lg:w-80 p-5 lg:rounded-br-xl bg-[#003E53] bg-opacity-60 shadow-2xl shadow-stone-200/50">
-          <img src={imgLogo} alt="logomarca" />
-        </div>
 
         <div className="invisible md:visible absolute top-0 right-0 max-w-[700px] w-52 lg:w-72 m-auto h-full">
           <CardExperience />
         </div>
 
-        <div id="sobre" className="flex flex-col md:absolute md:bottom-0 md:left-0 max-w-[700px] m-auto h-full justify-end md:justify-left px-5 py-12">
-          {/* <div className="backdrop-blur-sm lg:invisible w-52 md:w-64 lg:w-80 px-8 py-5 lg:rounded-br-xl bg-[#CDBCA8]">
-            <img src={imgLogo} alt="logomarca" />
-          </div> */}
-
+        <div id="sobre" className="flex md:absolute lg:bottom-0 lg:left-0 max-w-[700px] lg:h-4.5/6 justify-end lg:justify-left lg:my-28 lg:mx-5">
 
           <div className="backdrop-blur-sm rounded-2xl bg-[#003E53]/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
 
