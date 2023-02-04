@@ -9,6 +9,7 @@ import FormScheduler from "../components/FormScheduler";
 import Contact from "../components/Contact";
 import CardCta from "../components/CardCta"
 import Footer from "../components/Footer";
+import Apresentation from "../components/Apresentation";
 
 function HomePage() {
   const colors = ["#003E53", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -31,6 +32,9 @@ function HomePage() {
 
           {/* Hero area */}
           <HeroContent color={currentColor} />
+
+          {/* Apresentation area */}
+          <Apresentation color={currentColor} />
 
           <CardCta color={currentColor} />
 
