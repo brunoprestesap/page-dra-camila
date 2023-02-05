@@ -27,7 +27,7 @@ function Contact() {
         </div>
 
         <div className="w-full px-5 my-5 md:my-0">
-          <div className="w-full">
+          <div className="w-full mb-5">
             <h1 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#CDBCA8] underline-offset-8">
               CONTATO
             </h1>
