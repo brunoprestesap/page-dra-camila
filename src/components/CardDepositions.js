@@ -1,5 +1,4 @@
 import React from "react";
-import { RiUserStarFill } from 'react-icons/ri'
 import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 function CardDepositions({ depText, depName }) {
