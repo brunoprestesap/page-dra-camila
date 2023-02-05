@@ -33,7 +33,7 @@ function Diferentials() {
   ];
 
   return (
-    <div id="diferenciais" className="p-5">
+    <div id="diferenciais" className="px-5 py-16">
       <div className='flex w-full justify-center items-center gap-3'>
         <h2 className='text-3xl md:text-4xl font-bold text-center text-[#CDBCA8] uppercase'>Nossos</h2>
         <h2 className='text-3xl md:text-4xl font-bold text-center uppercase'>diferenciais</h2>

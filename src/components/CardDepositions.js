@@ -3,7 +3,7 @@ import { FaGoogle, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 
 function CardDepositions({ depText, depName }) {
   return (
-    <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 py-5 group transform duration-500 cursor-pointer">
+    <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl py-5 group transform duration-500 cursor-pointer">
       <div className="flex flex-col justify-center items-center">
 
         <div className="flex justify-center gap-2 mb-3">

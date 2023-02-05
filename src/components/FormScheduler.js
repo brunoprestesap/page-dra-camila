@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function FormScheduler() {
   return (
-    <div id="cta" className="flex justify-center my-8">
+    <div id="cta" className="flex justify-center my-16">
       <div className="flex flex-col w-full md:w-2/5 mx-5 items-center shadow-2xl shadow-gray-500/50 bg-[#003E53]/70 rounded-xl p-5">
         <h2 className="text-base md:text-xl leading-7 text-left md:text-center text-white">
           O acompanhamento psiquiátrico é uma das ferramentas do tratamento do

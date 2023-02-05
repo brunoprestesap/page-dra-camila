@@ -72,36 +72,39 @@ function Depositions() {
 
 
   return (
-    <div id="depoimentos" className="p-5 pt-10">
+    <div id="depoimentos" className="group my-8 md:my-12 lg:my-16">
       <div className="w-full">
         <h2 className="text-xl md:text-3xl font-bold text-center text-[#CDBCA8] uppercase">O que as pessoas dizem sobre o</h2>
         <h2 className="text-3xl md:text-5xl font-bold text-center text-[#003E53] uppercase">nosso atendimento</h2>
       </div>
 
-      <div className="w-full m-auto py-4 px-2 relative">
-        <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
+      <div className="w-full m-auto py-4 relative flex justify-center items-center">
+        <div className="w-5/6 h-full rounded-2xl bg-center bg-cover duration-500">
           <CardDepositions
             key={testimonials[currentIndex].id}
             depText={testimonials[currentIndex].text}
             depName={testimonials[currentIndex].name}
           />
         </div>
+
         {/* Left Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -left-5 md:left-80 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] left-0 md:left-0 lg:left-64 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -right-5 md:right-80 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] right-0 md:right-0 lg:right-64 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
+
       </div>
-        <div className="flex top-4 justify-center py-2">
-          {testimonials.map((slide, slideIndex) => (
-            <div key={slide.id} onClick={() => goToSlide(slideIndex)} className="text-2xl cursor-pointer">
-              <RxDotFilled />
-            </div>
-          ))}
-        </div>
+
+      <div className="flex top-4 justify-center py-2">
+        {testimonials.map((slide, slideIndex) => (
+          <div key={slide.id} onClick={() => goToSlide(slideIndex)} className="text-2xl cursor-pointer">
+            <RxDotFilled />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
