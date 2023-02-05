@@ -73,8 +73,8 @@ function Depositions() {
 
   return (
     <div id="depoimentos" className="p-5 pt-10">
-      <div className="text-3xl font-bold text-center">
-        O que as pessoas falam sobre o nosso atendimento
+      <div>
+        <h2 className="text-4xl font-bold text-center text-stone-900">O que as pessoas falam sobre o nosso atendimento</h2>
       </div>
 
       <div className="w-full m-auto py-4 px-2 relative">
@@ -86,11 +86,11 @@ function Depositions() {
           />
         </div>
         {/* Left Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -left-5 lg:left-96 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -left-5 md:left-80 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -right-5 lg:right-96 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] -right-5 md:right-80 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
       </div>

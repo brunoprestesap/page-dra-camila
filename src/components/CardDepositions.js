@@ -20,14 +20,14 @@ function CardDepositions({ depText, depName }) {
 
       <div className="w-full">
         <div className="px-5">
-          <div className="md:flex md:items-center text-base md:text-xl font-normal md:gap-5">
+          <div className="md:flex md:items-center md:gap-5">
             <FaQuoteLeft className="invisible md:visible" size={25} />
-            <h2 className="leading-6">{depText}</h2>
+            <h2 className="leading-6 text-stone-900 text-base md:text-xl font-medium">{depText}</h2>
             <FaQuoteRight className="invisible md:visible" size={25} />
           </div>
-          <div className="flex flex-row items-center font-medium">
-            <FaGoogle color="#003E53" size={25} />
-            <div className="text-sm md:text-xl font-bold ml-5">{depName} - Google Locais</div>
+          <div className="flex flex-row items-center font-medium my-5">
+            <FaGoogle size={25} />
+            <h2 className="text-sm md:text-lg font-bold ml-5 text-stone-900">{depName} - Google Locais</h2>
           </div>
         </div>
       </div>
