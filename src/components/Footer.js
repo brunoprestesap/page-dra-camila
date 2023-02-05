@@ -86,7 +86,7 @@ const Footer = () => {
         {/* Navigation section */}
         <div>
           <h2 className="text-xl font-bold text-[#CDBCA8] uppercase">
-            MENU DE NAVEGAÇÃO
+            MENU
           </h2>
           <a href="#hero">
             <h2 className="text-base my-2 mx-3 text-white">Home</h2>
