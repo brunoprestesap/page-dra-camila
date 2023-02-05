@@ -4,7 +4,7 @@ import logoImg from '../assets/logoNude.png'
 const Apresentation = () => {
   return (
     <div className='w-full flex justify-center md:my-8'>
-        <div className='w-full md:w-5/6 xl:w-4/6 md:flex md:items-center bg-white p-8 md:shadow-md md:shadow-slate-400'>
+        <div className='w-full md:w-5/6 xl:w-4/6 md:flex md:items-center bg-white p-8 md:shadow-xl md:shadow-gray-500/50 md:backdrop-blur-sm rounded-xl'>
             <div className='w-full md:flex justify-center'>
                 <img className='w-full' src={logoImg} alt='/' />
             </div>

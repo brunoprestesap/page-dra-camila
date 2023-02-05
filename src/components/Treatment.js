@@ -30,7 +30,7 @@ function Treatment() {
   ];
 
   return (
-    <div id="tratamentos" className="px-5 md:px-12">
+    <div id="tratamentos" className="p-5 md:px-12 bg-[#CDBCA8]">
       <div className="my-5">
         <h2 className='text-4xl font-bold text-center'>Em que podemos te ajudar</h2>
       </div>

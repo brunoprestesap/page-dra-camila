@@ -36,8 +36,6 @@ function HomePage() {
           {/* Apresentation area */}
           <Apresentation color={currentColor} />
 
-          <CardCta color={currentColor} />
-
           {/* Treatments area */}
           <Treatment />
 
