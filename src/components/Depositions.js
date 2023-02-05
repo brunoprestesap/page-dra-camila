@@ -73,8 +73,9 @@ function Depositions() {
 
   return (
     <div id="depoimentos" className="p-5 pt-10">
-      <div>
-        <h2 className="text-4xl font-bold text-center text-stone-900">O que as pessoas falam sobre o nosso atendimento</h2>
+      <div className="w-full">
+        <h2 className="text-xl md:text-3xl font-bold text-center text-[#CDBCA8] uppercase">O que as pessoas dizem sobre o</h2>
+        <h2 className="text-3xl md:text-5xl font-bold text-center text-[#003E53] uppercase">nosso atendimento</h2>
       </div>
 
       <div className="w-full m-auto py-4 px-2 relative">

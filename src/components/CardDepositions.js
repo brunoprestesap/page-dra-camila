@@ -10,11 +10,11 @@ function CardDepositions({ depText, depName }) {
           <RiUserStarFill size={50}/>
         </div>
         <div className="flex justify-center gap-2 mb-5">
-          <FaStar color="FF884B" />
-          <FaStar color="FF884B" />
-          <FaStar color="FF884B" />
-          <FaStar color="FF884B" />
-          <FaStar color="FF884B" />
+          <FaStar color="CDBCA8" />
+          <FaStar color="CDBCA8" />
+          <FaStar color="CDBCA8" />
+          <FaStar color="CDBCA8" />
+          <FaStar color="CDBCA8" />
         </div>
       </div>
 
