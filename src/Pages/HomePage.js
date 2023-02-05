@@ -9,6 +9,7 @@ import FormScheduler from "../components/FormScheduler";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Apresentation from "../components/Apresentation";
+import Brand from "../components/Brand";
 
 function HomePage() {
   const colors = ["#003E53", "#A1412B", "#DF854F", "#F1EDDB", "#244B5A", "#53575A"];
@@ -40,6 +41,9 @@ function HomePage() {
 
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
+
+          {/* Brand Area */}
+          <Brand />
 
           {/* Diferentials area */}
           <Diferentials />
