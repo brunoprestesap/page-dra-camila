@@ -12,7 +12,7 @@ function CardBeneficios({ id, icon, title, text }) {
         </div>
         <div className='w-full py-5'>
           <h5 className="text-2xl font-bold text-center tracking-tight">{title}</h5>
-          <p className='mt-3 leading-7 text-stone-800'>{text}</p>
+          <p className='text-base mt-3 md:leading-7 text-stone-800'>{text}</p>
         </div>
       </div>
     </div>
