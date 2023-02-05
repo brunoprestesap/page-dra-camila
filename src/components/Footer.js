@@ -12,13 +12,19 @@ import {
 const Footer = () => {
   return (
     <div id="footer" className="bg-[#003E53] p-5 md:p-12">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
-        <div>
+
+      {/* Content Section */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+
+        {/* Column One */}
+        <div className="w-full">
+          {/* Logo div */}
           <div className="flex justify-center md:justify-start">
             <img src={logoImg} className="w-5/6 mb-5" alt="logo" />
           </div>
 
-          <div>
+          {/* Social Netowrks Section */}
+          <div className="w-full">
             <h2 className="text-xl font-bold text-[#CDBCA8] uppercase">
               Redes Sociais
             </h2>
@@ -48,15 +54,18 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Contacts Section */}
           <div className="w-full my-5">
             <div className="flex my-5">
-              <h2 className="text-base font-bold text-[#CDBCA8]">
+              <h2 className="text-xl font-bold text-[#CDBCA8]">
                 PSIQUIATRA MACAPÁ - DRA CAMILA NEIVA
               </h2>
             </div>
             <div className="flex gap-3 items-center mb-3">
               <FaHeadset size={30} color="CDBCA8" />
-              <h2 className="font-mono text-xl text-white subpixel-antialiased">55(96)981163765</h2>{" "}
+              <h2 className="font-mono text-xl text-white subpixel-antialiased">
+                55(96)981163765
+              </h2>{" "}
             </div>
             <div className="flex gap-3 items-center mb-3">
               <FaHospital size={30} color="CDBCA8" />
@@ -71,7 +80,10 @@ const Footer = () => {
               </h2>
             </div>
           </div>
+
         </div>
+
+        {/* Navigation section */}
         <div>
           <h2 className="text-xl font-bold text-[#CDBCA8] uppercase">
             Navegação
@@ -98,6 +110,7 @@ const Footer = () => {
             <h2 className="text-base my-2 mx-3 text-white">Localização</h2>
           </a>
         </div>
+
       </div>
     </div>
   );
