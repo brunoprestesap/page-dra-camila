@@ -16,7 +16,9 @@ const Brand = () => {
                 <div id="sobre" className="flex justify-center absolute bottom-10 left-0 md:w-3/6 md:h-auto px-5">
 
                     <div className="backdrop-opacity-10 rounded-2xl bg-white px-5 py-8 bg-opacity-60 shadow-2xl shadow-stone-500/50">
-
+                        <h2 className='text-2xl font-bold mb-5'>
+                            Sobre mim
+                        </h2>
                         <h2 className='text-base md:text-xl indent-10 md:leading-8 text-justify'>
                             Tenho 38 anos, sou goiana de coração, médica formada pela Universidade Federal do Amapá. Cursei pós-graduação em Psiquiatria pelo Albert Einstein do RJ e Psiquiatria Intervencionista pelo HC-USP. Além disso, fiz Enfermagem e Mestrado pela UNICAMP. Trabalho desde 2019 ajudando pessoas a encontrar equilíbrio e tranquilidade emocional. Já trabalhei também em CAPS infantil, CAPS Álcool e drogas e Clínica de Reabilitação. Prezo pelo atendimento responsável e humanizado e será uma grande satisfação atender você e poder te ajudar também.
                         </h2>
