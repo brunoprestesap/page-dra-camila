@@ -20,7 +20,7 @@ const Brand = () => {
                             <h2 className='text-2xl md:text-4xl tracking-widest text-[#CDBCA8] font-extrabold'>
                                 QUEM
                             </h2>
-                            <h2 className='text-2xl md:text-4xl font-bold mb-5'>
+                            <h2 className='text-2xl md:text-4xl font-bold mb-5 underline decoration-[#CDBCA8] underline-offset-8'>
                                 SOU EU
                             </h2>
                         </div>

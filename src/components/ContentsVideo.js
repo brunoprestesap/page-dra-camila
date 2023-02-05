@@ -60,11 +60,11 @@ function Contents({ color }) {
 
   return (
     <div id="depoimentos" className="p-5 flex justify-center flex-col items-center">
-      <div className="flex justify-center gap-2">
+      <div className="flex justify-center gap-2 mb-3">
         <h2 className="text-2xl md:text-4xl font-bold text-center uppercase text-[#CDBCA8]">
           Meus
         </h2>
-        <h2 className="text-2xl md:text-4xl font-bold text-center uppercase">
+        <h2 className="text-2xl md:text-4xl font-bold text-center uppercase underline decoration-[#CDBCA8] underline-offset-8">
           conteúdos
         </h2>
       </div>

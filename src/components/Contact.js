@@ -3,10 +3,13 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 function Contact() {
   return (
     <div id="contact" className="my-8">
-      <div className="m-8">
-        <h2 className="flex justify-center gap-3 text-4xl font-bold text-center text-[#003E53]">
+      <div className="flex justify-center gap-2 mb-8">
+        <h2 className="flex gap-2 text-4xl font-bold text-center text-[#CDBCA8]">
           <FaMapMarkedAlt />
-          Onde estamos
+          ONDE
+        </h2>
+        <h2 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#CDBCA8] underline-offset-8">
+          ESTAMOS
         </h2>
       </div>
 
@@ -56,14 +59,6 @@ function Contact() {
                 className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 type="email"
                 name="email"
-              />
-            </div>
-            <div className="flex flex-col py-2">
-              <label className="text-sm py-2 text-white font-medium">Assunto</label>
-              <input
-                className="border-2 rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
-                type="text"
-                name="subject"
               />
             </div>
             <div className="flex flex-col py-2">
