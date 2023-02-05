@@ -5,7 +5,7 @@ function Contact() {
     <div id="contact" className="my-8">
       <div className="flex justify-center gap-2 mb-8">
         <h2 className="flex gap-2 text-4xl font-bold text-center text-[#CDBCA8]">
-          <FaMapMarkedAlt />
+          <FaMapMarkedAlt color="003E53"/>
           ONDE
         </h2>
         <h2 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#CDBCA8] underline-offset-8">
@@ -26,8 +26,8 @@ function Contact() {
           ></iframe>
         </div>
 
-        <div className="my-5 md:my-0 p-5 bg-[#003E53]/70 bg-opacity-60 shadow-2xl shadow-stone-500/50 rounded-2xl">
-          <h1 className="py-4 md:py-0 text-4xl font-bold text-center text-white">
+        <div className="my-5 md:my-0 p-5 bg-[#CDBCA8] shadow-2xl shadow-stone-500/50 rounded-xl">
+          <h1 className="text-4xl font-bold text-center text-[#003E53]">
             Contato
           </h1>
           <form
@@ -37,7 +37,7 @@ function Contact() {
           >
             <div className="grid md:grid-cols-2 gap-2 w-full">
               <div className="flex flex-col">
-                <label className="text-sm py-2 text-white font-medium">Nome</label>
+                <label className="text-sm py-2 text-[#003E53] font-medium">Nome</label>
                 <input
                   className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                   type="text"
@@ -45,7 +45,7 @@ function Contact() {
                 />
               </div>
               <div className="flex flex-col">
-                <label className="text-sm py-2 text-white font-medium">Telefone</label>
+                <label className="text-sm py-2 text-[#003E53] font-medium">Telefone</label>
                 <input
                   className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                   type="text"
@@ -54,7 +54,7 @@ function Contact() {
               </div>
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2 text-white font-medium">E-mail</label>
+              <label className="text-sm py-2 text-[#003E53] font-medium">E-mail</label>
               <input
                 className="rounded-lg p-1 flex border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 type="email"
@@ -62,7 +62,7 @@ function Contact() {
               />
             </div>
             <div className="flex flex-col py-2">
-              <label className="text-sm py-2 text-white font-medium">Mensagem</label>
+              <label className="text-sm py-2 text-[#003E53] font-medium">Mensagem</label>
               <textarea
                 className="rounded-lg p-1 border-[#003E53]-300 focus:ring focus:ring-[#003E53]"
                 rows="5"

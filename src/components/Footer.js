@@ -13,7 +13,49 @@ const Footer = () => {
     <div id="footer" className="bg-[#003E53] p-5 md:p-12">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div>
-          <img src={logoImg} className="w-5/6" alt="logo"/>
+          <img src={logoImg} className="w-5/6" alt="logo" />
+
+          <div>
+            <h2 className="text-xl font-bold text-stone-200">Redes Sociais</h2>
+            <a
+              href="https://www.instagram.com/dra.camilaneiva/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center gap-1">
+                <FaInstagram color="white" size={25} />
+                <h2 className="text-base my-3 mx-3 text-stone-200">
+                  Instagram
+                </h2>
+              </div>
+            </a>
+            <a
+              href="https://www.facebook.com/camilaneiva.psiquiatra"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center gap-1">
+                <FaFacebookF color="white" size={25} />
+                <h2 className="text-base my-3 mx-3 text-stone-200">Facebook</h2>
+              </div>
+            </a>
+            <a
+              href="https://wa.me/5596981163765"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center gap-1">
+                <FaWhatsapp color="white" size={25} />
+                <h2 className="text-base my-3 mx-3 text-stone-200">Whatsapp</h2>
+              </div>
+            </a>
+
+            <div className="flex items-center gap-1">
+              <FaYoutube color="white" size={25} />
+              <h2 className="text-base my-3 mx-3 text-stone-200">Youtube</h2>
+            </div>
+          </div>
+
           <h2 className="text-xl font-bold text-stone-200 my-5">Sobre mim</h2>
           <h2 className="text-sm text-stone-200">
             Psiquiatra formada no Albert Einstein do Rio de Janeiro/RJ
@@ -53,50 +95,15 @@ const Footer = () => {
             <h2 className="text-base my-2 mx-3 text-stone-200">Localização</h2>
           </a>
         </div>
-        <div>
-          <h2 className="text-xl font-bold text-stone-200">Redes Sociais</h2>
-          <a
-            href="https://www.instagram.com/dra.camilaneiva/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="flex items-center gap-1">
-              <FaInstagram color="white" size={25} />
-              <h2 className="text-base my-3 mx-3 text-stone-200">Instagram</h2>
-            </div>
-          </a>
-          <a
-            href="https://www.facebook.com/camilaneiva.psiquiatra"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="flex items-center gap-1">
-              <FaFacebookF color="white" size={25} />
-              <h2 className="text-base my-3 mx-3 text-stone-200">Facebook</h2>
-            </div>
-          </a>
-          <a
-            href="https://wa.me/5596981163765"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="flex items-center gap-1">
-              <FaWhatsapp color="white" size={25} />
-              <h2 className="text-base my-3 mx-3 text-stone-200">Whatsapp</h2>
-            </div>
-          </a>
 
-          <div className="flex items-center gap-1">
-            <FaYoutube color="white" size={25} />
-            <h2 className="text-base my-3 mx-3 text-stone-200">Youtube</h2>
-          </div>
-        </div>
         <div className="flex flex-col">
           <h2 className="text-2xl font-bold text-stone-200">
-            Reencontre sua paz<br/> e bem-estar
+            Reencontre sua paz
+            <br /> e bem-estar
           </h2>
           <h2 className="text-xl text-stone-200 my-5">
-            Agende sua consulta<br/> agora conosco
+            Agende sua consulta
+            <br /> agora conosco
           </h2>
           <button className="p-3 w-72 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#003E53]/70 border-2 border-white hover:bg-[#003E53]/90 hover:border-2 hover:border-stone-800">
             <a
