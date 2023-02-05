@@ -7,6 +7,8 @@ import {
   FaUserMd,
 } from "react-icons/fa";
 
+import { MdFamilyRestroom } from 'react-icons/md'
+
 function Diferentials() {
   const contents = [
     {
@@ -15,7 +17,7 @@ function Diferentials() {
       text: "Fazemos questão de uma escuta atenta e humanizada. Prezamos pelo cuidado e humanização nos atendimentos por meio de um atendimento acolhedor. Atuamos com base na ética, empatia e respeito pela vida, com objetivo de melhorar cada vez mais sua qualidade de vida.",
     },
     {
-      icon: <FaHandHoldingHeart size={50} />,
+      icon: <MdFamilyRestroom size={50} />,
       title: "Acolhimento familiar",
       text: "Um diferencial que marca nosso atendimento é o espaço concedido aos familiares. O propósito da melhora integral do paciente inclui disponibilidade, acesso ao familiar para esclarecimento de dúvidas e participação no tratamento, respeitando as individualidades da pessoa e seguindo o sigilo médico.",
     },
