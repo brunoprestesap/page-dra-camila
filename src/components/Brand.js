@@ -13,7 +13,7 @@ const Brand = () => {
 
             <div className="w-full h-screen absolute top-0 left-0 md:bottom-4 bg-white/50">
 
-                <div id="sobre" className="flex justify-center absolute bottom-10 left-0 md:w-3/6 md:h-auto px-5">
+                <div id="sobre" className="flex justify-center absolute bottom-10 left-0 md:w-3/6 md:h-auto lg:max-w-[600px] px-5">
 
                     <div className="backdrop-opacity-10 rounded-2xl bg-white px-5 py-8 bg-opacity-60 shadow-2xl shadow-stone-500/50">
                         <h2 className='text-2xl md:text-4xl tracking-widest text-[#CDBCA8] font-extrabold'>
