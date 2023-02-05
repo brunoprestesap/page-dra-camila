@@ -63,8 +63,8 @@ const Footer = () => {
             </div>
             <div className="flex gap-3 items-center mb-3">
               <FaHeadset size={30} color="CDBCA8" />
-              <h2 className="font-mono text-xl text-white subpixel-antialiased">
-                55(96)981163765
+              <h2 className="text-xl text-white subpixel-antialiased">
+                (96) 98116-3765
               </h2>{" "}
             </div>
             <div className="flex gap-3 items-center mb-3">
@@ -86,7 +86,7 @@ const Footer = () => {
         {/* Navigation section */}
         <div>
           <h2 className="text-xl font-bold text-[#CDBCA8] uppercase">
-            Navegação
+            MENU DE NAVEGAÇÃO
           </h2>
           <a href="#hero">
             <h2 className="text-base my-2 mx-3 text-white">Home</h2>
