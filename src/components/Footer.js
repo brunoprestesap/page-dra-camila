@@ -17,59 +17,50 @@ const Footer = () => {
 
           <div>
             <h2 className="text-xl font-bold text-[#CDBCA8]">Redes Sociais</h2>
-            <a
-              href="https://www.instagram.com/dra.camilaneiva/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="flex items-center gap-1">
-                <FaInstagram color="white" size={25} />
-                <h2 className="text-base my-3 mx-3 text-stone-200">
-                  Instagram
-                </h2>
+            <div className="flex gap-3 my-3">
+              <div>
+                <a
+                  href="https://www.instagram.com/dra.camilaneiva/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="flex items-center gap-1">
+                    <FaInstagram color="white" size={25} />
+                  </div>
+                </a>
               </div>
-            </a>
-            <a
-              href="https://www.facebook.com/camilaneiva.psiquiatra"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="flex items-center gap-1">
-                <FaFacebookF color="white" size={25} />
-                <h2 className="text-base my-3 mx-3 text-stone-200">Facebook</h2>
+              <div>
+                <a
+                  href="https://www.facebook.com/camilaneiva.psiquiatra"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="flex items-center gap-1">
+                    <FaFacebookF color="white" size={25} />
+                  </div>
+                </a>
               </div>
-            </a>
-            <a
-              href="https://wa.me/5596981163765"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="flex items-center gap-1">
-                <FaWhatsapp color="white" size={25} />
-                <h2 className="text-base my-3 mx-3 text-stone-200">Whatsapp</h2>
-              </div>
-            </a>
-
-            <div className="flex items-center gap-1">
-              <FaYoutube color="white" size={25} />
-              <h2 className="text-base my-3 mx-3 text-stone-200">Youtube</h2>
             </div>
           </div>
 
-          <h2 className="text-xl font-bold text-[#CDBCA8] mb-3">Sobre mim</h2>
-          <h2 className="text-sm text-stone-200">
-            Psiquiatra formada no Albert Einstein do Rio de Janeiro/RJ
-          </h2>
-          <a
-            href="https://wa.me/5596981163765"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2 className="text-2xl text-stone-200 my-5">55(96)981163765</h2>
-          </a>
-          <h2 className="text-base text-stone-200">
-            contato@dracamilaneiva.com.br
-          </h2>
+
+          <div className="w-full my-5">
+            <h2 className="text-base font-bold text-[#CDBCA8]">PSIQUIATRA MACAPÁ - DRA CAMILA NEIVA</h2>
+            <div>
+              <a
+                href="https://wa.me/5596981163765"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <h2 className="text-xl text-stone-200">55(96)981163765</h2>
+              </a>
+            </div>
+            <div>
+              <h2 className="text-base text-stone-200">
+                contato@dracamilaneiva.com.br
+              </h2>
+            </div>
+          </div>
         </div>
         <div>
           <h2 className="text-xl font-bold text-[#CDBCA8]">Navegação</h2>
