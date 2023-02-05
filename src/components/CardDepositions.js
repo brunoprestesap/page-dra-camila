@@ -7,7 +7,7 @@ function CardDepositions({ depText, depName }) {
     <div className="flex flex-wrap justify-center shadow-lg mx-auto max-w-3xl md:mt-5 py-5 group transform duration-500 cursor-pointer">
       <div className="flex flex-col justify-center items-center">
 
-        <div className="flex justify-center gap-2 mb-5">
+        <div className="flex justify-center gap-2 mb-3">
           <FaStar color="CDBCA8" />
           <FaStar color="CDBCA8" />
           <FaStar color="CDBCA8" />
