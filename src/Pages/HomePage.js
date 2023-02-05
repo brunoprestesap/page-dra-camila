@@ -7,7 +7,6 @@ import Diferentials from "../components/Diferential";
 import Treatment from "../components/Treatment";
 import FormScheduler from "../components/FormScheduler";
 import Contact from "../components/Contact";
-import CardCta from "../components/CardCta"
 import Footer from "../components/Footer";
 import Apresentation from "../components/Apresentation";
 
