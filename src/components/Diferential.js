@@ -5,13 +5,12 @@ import {
   FaHandHoldingHeart,
   FaClock,
   FaUserMd,
-  FaHandHoldingMedical,
 } from "react-icons/fa";
 
 function Diferentials() {
   const contents = [
     {
-      icon: <FaHandHoldingMedical size={50}/>,
+      icon: <FaHandHoldingHeart size={50}/>,
       title: "Atendimento humanizado ",
       text: "Fazemos questão de uma escuta atenta e humanizada. Prezamos pelo cuidado e humanização nos atendimentos por meio de um atendimento acolhedor. Atuamos com base na ética, empatia e respeito pela vida, com objetivo de melhorar cada vez mais sua qualidade de vida.",
     },
@@ -27,7 +26,7 @@ function Diferentials() {
     },
     {
       icon: <FaUserMd size={50} />,
-      title: "Medicina sem fronteiras",
+      title: "Telemedicina",
       text: "Graças ao avanço das tecnologias, a telemedicina ajuda milhares de pessoas a buscar tratamento para os diversos tipos de transtornos. É possível atender pessoas que residem em outros estados e em outros países, devido a facilidade dos encontros por meio das vídeochamadas e também pela possibilidade do envio de receitas digitais. A sensação é de estar presente junto ao médico, como numa consulta presencial.",
     },
   ];
