@@ -59,15 +59,18 @@ function Contents({ color }) {
   }
 
   return (
-    <div id="depoimentos">
-      <div className="py-5">
-        <h2 className="text-4xl font-bold text-center">
-          Meus conteúdos
+    <div id="depoimentos" className="p-5 flex justify-center flex-col items-center">
+      <div className="flex justify-center gap-2">
+        <h2 className="text-2xl font-bold text-center uppercase text-[#CDBCA8]">
+          Meus
+        </h2>
+        <h2 className="text-2xl font-bold text-center uppercase">
+          conteúdos
         </h2>
       </div>
 
-      <div className="w-full md:w-2/5 m-auto py-4 px-2 relative flex justify-center">
-        <div className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
+      <div className="w-full md:w-2/5 py-4 relative flex justify-center">
+        <div className="w-full md:w-5/6 bg-center bg-cover duration-500">
           <VideoPlayer
             key={contents[currentIndex].poster}
             title={contents[currentIndex].title}
@@ -76,11 +79,11 @@ function Contents({ color }) {
           />
         </div>
         {/* Left Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] left-5 md:left-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] left-1 md:left-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] right-5 md:right-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] right-1 md:right-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
       </div>
