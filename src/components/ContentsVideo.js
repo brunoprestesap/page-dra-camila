@@ -2,10 +2,12 @@ import React, { useState } from "react";
 
 import VideoPlayer from "./VideoPlayer.js";
 import depressao from "../assets/depressao.mp4";
+import depressao2 from '../assets/depressao_.mp4'
 import babyblues from "../assets/babyblues.mp4";
 import depressaoCoisaSeria from "../assets/depressao-coisa-seria.mp4";
 import mitos from "../assets/mitos.mp4";
 import depressaoCapa from "../assets/capa/depressao.jpg";
+import depressaoCapa2 from '../assets/capa/capa_depressao.jpg'
 import babybluesCapa from "../assets/capa/baby-blues.jpg";
 import depressaoCoisaSeriaCapa from "../assets/capa/depresao-coisa-seria.jpg";
 import mitosCapa from "../assets/capa/depressao.jpg";
@@ -38,6 +40,12 @@ function Contents({ color }) {
       videoId: mitos,
       poster: mitosCapa,
     },
+    {
+      id: "5",
+      title: "Depressão",
+      videoId: depressao2,
+      poster: depressaoCapa2,
+    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -59,7 +67,9 @@ function Contents({ color }) {
   }
 
   return (
-    <div id="depoimentos" className="p-5 flex justify-center flex-col items-center">
+    <div id="depoimentos" className="mx-5 flex justify-center flex-col items-center">
+
+      {/* Title div */}
       <div className="flex justify-center gap-2 mb-3">
         <h2 className="text-4xl font-bold text-center uppercase text-[#CDBCA8]">
           Meus
@@ -69,8 +79,9 @@ function Contents({ color }) {
         </h2>
       </div>
 
-      <div className="w-full md:w-2/5 py-4 relative flex justify-center">
-        <div className="w-full md:w-5/6 bg-center bg-cover duration-500">
+      {/* Div do Video */}
+      <div className="w-full md:w-[350px] relative flex justify-center">
+        <div className="w-full md:w-6/6 object-cover duration-500">
           <VideoPlayer
             key={contents[currentIndex].poster}
             title={contents[currentIndex].title}
@@ -78,15 +89,17 @@ function Contents({ color }) {
             poster={contents[currentIndex].poster}
           />
         </div>
+
         {/* Left Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] left-1 md:left-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] left-1 rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
-        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] right-1 md:right-20 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+        <div className="absolute top-[40%] -translate-x-0 translate-y-[50%] right-1  text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
       </div>
+
       <div className="flex top-4 justify-center py-2">
         {contents.map((slide, slideIndex) => (
           <div
