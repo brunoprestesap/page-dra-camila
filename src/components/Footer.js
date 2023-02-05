@@ -1,5 +1,5 @@
 import React from "react";
-import logoImg from "../assets/logoNude.png";
+import logoImg from "../assets/logo.png";
 
 import {
   FaFacebookF,
@@ -97,7 +97,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col">
-          <h2 className="text-2xl font-bold text-[#CDBCA8]">
+          <h2 className="text-2xl font-bold text-[#CDBCA8 ]">
             Reencontre sua paz
             <br /> e bem-estar
           </h2>
