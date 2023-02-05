@@ -12,7 +12,7 @@ function CardTreatment({ id, icon, title, text }) {
           <h2 className="text-2xl text-center font-bold text-white uppercase my-5">{title}</h2>
         </div>
         <div>
-          <h2 className="text-lg text-justify leading-7 text-white xl:px-16">{text}</h2>
+          <h2 className="text-lg text-justify leading-7 text-slate-900 xl:px-16">{text}</h2>
         </div>
       </div>
     </div>
