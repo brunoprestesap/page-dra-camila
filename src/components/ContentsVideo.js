@@ -67,7 +67,7 @@ function Contents({ color }) {
         <h2 className="text-4xl font-bold text-center uppercase text-[#CDBCA8]">
           Meus
         </h2>
-        <h2 className="text-4xl font-bold text-center uppercase underline decoration-[#CDBCA8] underline-offset-8">
+        <h2 className="text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8">
           conteúdos
         </h2>
       </div>

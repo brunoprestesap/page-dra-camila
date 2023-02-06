@@ -33,7 +33,7 @@ function Treatment() {
     <div id="tratamentos" className="p-5 md:py-12 lg:py-20 bg-[#CDBCA8]">
       <div className="my-12">
         <h2 className='text-4xl font-bold text-center uppercase text-white'>Em que podemos</h2>
-        <h2 className='text-4xl font-bold text-center uppercase'>te ajudar</h2>
+        <h2 className='text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8'>te ajudar</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {contents.map((content) => {

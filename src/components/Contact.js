@@ -8,7 +8,7 @@ function Contact() {
           <FaMapMarkedAlt color="003E53" />
           ONDE
         </h2>
-        <h2 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#CDBCA8] underline-offset-8">
+        <h2 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#7C5A12] underline-offset-8">
           ESTAMOS
         </h2>
       </div>
@@ -28,7 +28,7 @@ function Contact() {
 
         <div className="w-full px-5 my-5 md:my-0">
           <div className="w-full mb-5">
-            <h1 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#CDBCA8] underline-offset-8">
+            <h1 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#7C5A12] underline-offset-8">
               CONTATO
             </h1>
           </div>

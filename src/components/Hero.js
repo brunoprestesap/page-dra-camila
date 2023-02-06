@@ -25,7 +25,7 @@ function Hero({ color }) {
               Dra.
             </h1>
             <h1 className="text-6xl uppercase lg:text-6xl font-bold">Camila<br/>Neiva</h1>
-            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#CDBCA8]" />
+            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#7C5A12]" />
             <div className="my-10">
               <h2 className="text-2xl lg:text-4xl font-medium">
                 Psiquiatra em Macapá/AP

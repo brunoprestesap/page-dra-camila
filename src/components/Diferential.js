@@ -37,7 +37,7 @@ function Diferentials() {
     <div id="diferenciais" className="px-5 py-16">
       <div className='flex w-full justify-center items-center gap-2'>
         <h2 className='text-3xl md:text-4xl font-bold text-center text-[#CDBCA8] uppercase'>Nossos</h2>
-        <h2 className='text-3xl md:text-4xl font-bold text-center uppercase underline decoration-[#CDBCA8] underline-offset-8'>diferenciais</h2>
+        <h2 className='text-3xl md:text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8'>diferenciais</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-4 gap-5 pt-5">
         {contents.map((content, idx) => {
