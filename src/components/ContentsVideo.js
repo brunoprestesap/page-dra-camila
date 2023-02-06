@@ -1,16 +1,22 @@
 import React, { useState } from "react";
 
-import VideoPlayer from "./VideoPlayer.js";
-import depressao from "../assets/depressao.mp4";
-import depressao2 from '../assets/depressao_.mp4'
-import babyblues from "../assets/babyblues.mp4";
-import depressaoCoisaSeria from "../assets/depressao-coisa-seria.mp4";
-import mitos from "../assets/mitos.mp4";
-import depressaoCapa from "../assets/capa/depressao.jpg";
-import depressaoCapa2 from '../assets/capa/capa_depressao.jpg'
-import babybluesCapa from "../assets/capa/baby-blues.jpg";
-import depressaoCoisaSeriaCapa from "../assets/capa/depresao-coisa-seria.jpg";
-import mitosCapa from "../assets/capa/depressao.jpg";
+import VideoPlayer from "./VideoPlayer";
+
+import depressao from "../assets/videos/depressao.mp4";
+import depressaoCapa from "../assets/capa/capa_depressao.jpg";
+
+import babyblues from "../assets/videos/babyblues.mp4";
+import babybluesCapa from "../assets/capa/baby_blues.jpg";
+
+import depressaoCoisaSeria from "../assets/videos/depressao-coisa-seria.mp4";
+import depressaoCoisaSeriaCapa from "../assets/capa/depressao_falta_deus.jpg";
+
+import depressao2 from '../assets/videos/depressao_.mp4'
+import depressaoCapa2 from '../assets/capa/depressao_capa.jpg'
+
+import cansacoMental from '../assets/videos/cansaco_mental.mp4'
+import cansacoMentalCapa from '../assets/capa/capa_casanco.jpg'
+
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
@@ -30,21 +36,21 @@ function Contents({ color }) {
     },
     {
       id: "3",
-      title: "Depressão é coisa séria",
+      title: "Depressão é falta de Deus no coração?",
       videoId: depressaoCoisaSeria,
       poster: depressaoCoisaSeriaCapa,
     },
     {
       id: "4",
-      title: "Mitos",
-      videoId: mitos,
-      poster: mitosCapa,
-    },
-    {
-      id: "5",
       title: "Depressão",
       videoId: depressao2,
       poster: depressaoCapa2,
+    },
+    {
+      id: "5",
+      title: "Cansaço Mental",
+      videoId: cansacoMental,
+      poster: cansacoMentalCapa,
     },
   ];
 
