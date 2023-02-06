@@ -5,9 +5,6 @@ import VideoPlayer from "./VideoPlayer";
 import depressao from "../assets/videos/depressao.mp4";
 import depressaoCapa from "../assets/capa/capa_depressao.jpg";
 
-import babyblues from "../assets/videos/babyblues.mp4";
-import babybluesCapa from "../assets/capa/baby_blues.jpg";
-
 import depressaoCoisaSeria from "../assets/videos/depressao-coisa-seria.mp4";
 import depressaoCoisaSeriaCapa from "../assets/capa/depressao_falta_deus.jpg";
 
@@ -24,31 +21,21 @@ function Contents({ color }) {
   const contents = [
     {
       id: "1",
-      title: "Depressão",
       videoId: depressao,
       poster: depressaoCapa,
     },
     {
-      id: "2",
-      title: "Baby Blues",
-      videoId: babyblues,
-      poster: babybluesCapa,
-    },
-    {
       id: "3",
-      title: "Depressão é falta de Deus no coração?",
       videoId: depressaoCoisaSeria,
       poster: depressaoCoisaSeriaCapa,
     },
     {
       id: "4",
-      title: "Depressão",
       videoId: depressao2,
       poster: depressaoCapa2,
     },
     {
       id: "5",
-      title: "Cansaço Mental",
       videoId: cansacoMental,
       poster: cansacoMentalCapa,
     },
@@ -90,7 +77,6 @@ function Contents({ color }) {
         <div className="w-full md:w-6/6 object-cover duration-500">
           <VideoPlayer
             key={contents[currentIndex].poster}
-            title={contents[currentIndex].title}
             videoId={contents[currentIndex].videoId}
             poster={contents[currentIndex].poster}
           />
