@@ -30,8 +30,8 @@ function Hero({ color }) {
               <h2 className="text-2xl lg:text-4xl font-medium">
                 Psiquiatra em Macapá/AP
               </h2>
-              <h2 className="text-lg lg:text-2xl">
-                Atendimento on-line e presencial
+              <h2 className="text-lg md:text-xl">
+                Atendimento presencial e por telemedicina
               </h2>
             </div>
 
