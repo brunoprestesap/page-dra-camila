@@ -14,16 +14,30 @@ function Contact() {
       </div>
 
       <div className="mx-5 flex flex-col md:flex-row items-start justify-center">
-        <div className="w-full shadow-2xl shadow-stone-500/50">
-          <iframe
-            className="w-full rounded-xl"
-            title="Onde eu atendo"
-            width="600"
-            height="615"
-            loading="lazy"
-            allowFullScreen
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7YYbzwvhYY0RY0V-Dkp_Am8&key=AIzaSyAKyXjIGENqlWQFa4Pzk5HwUhuxpnmLZ_s"
-          ></iframe>
+        <div className="flex flex-col w-full">
+          <div className="w-full flex justify-center">
+            <a
+              href="https://www.google.com/maps/dir//Psiquiatra+Macap%C3%A1+-+Dra+Camila+Neiva+R.+Manoel+Eud%C3%B3xio+Pereira,+826+-+Centro+Macap%C3%A1+-+AP+68900-021/@0.0426545,-51.0660276,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8d61e10bcf1b86ed:0x6f027f4a0e7e4563!2m2!1d-51.0660276!2d0.0426545"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="bg-[#003E53] rounded-lg w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
+                <h2 className="text-white uppercase font-bold">Traçar rotas</h2>
+              </button>
+            </a>
+          </div>
+          <div className="w-full shadow-2xl shadow-stone-500/50">
+            <iframe
+              className="w-full rounded-xl"
+              title="Onde eu atendo"
+              width="600"
+              height="615"
+              loading="lazy"
+              allowFullScreen
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7YYbzwvhYY0RY0V-Dkp_Am8&key=AIzaSyAKyXjIGENqlWQFa4Pzk5HwUhuxpnmLZ_s"
+            ></iframe>
+          </div>
+
         </div>
 
         <div className="w-full px-5 my-5 md:my-0">
