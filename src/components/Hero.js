@@ -16,17 +16,19 @@ function Hero({ color }) {
           <CardExperience />
         </div>
 
-        <div id="sobre" className="flex absolute bottom-24 left-7">
-          <div className="backdrop-opacity-10 rounded-2xl bg-white p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
+        <div id="sobre" className="flex absolute bottom-16 md:bottom-24 left-0 md:left-7 m-5 md:m-0">
+          <div className="backdrop-opacity-10 rounded-2xl bg-white/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
             <h1 className="text-6xl uppercase lg:text-6xl">Dra.</h1>
             <h1 className="text-6xl uppercase lg:text-6xl font-bold">
               Camila
               <br />
               Neiva
             </h1>
+
             <hr className="w-full lg:w-full border mt-3 mb-5 border-[#7C5A12]" />
+
             <div className="my-10">
-              <h2 className="text-2xl lg:text-4xl font-medium">
+              <h2 className="text-2xl md:text-4xl font-medium">
                 Psiquiatra em Macapá/AP
               </h2>
               <h2 className="text-lg md:text-xl">
@@ -40,7 +42,7 @@ function Hero({ color }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                <button className="bg-[#003E53] rounded-lg w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
+                <button className="bg-[#003E53] rounded-lg w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl">
                   <h2 className="text-white uppercase font-bold">
                     Agende sua consulta
                   </h2>
