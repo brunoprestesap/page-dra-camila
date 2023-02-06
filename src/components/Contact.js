@@ -37,7 +37,6 @@ function Contact() {
               src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ7YYbzwvhYY0RY0V-Dkp_Am8&key=AIzaSyAKyXjIGENqlWQFa4Pzk5HwUhuxpnmLZ_s"
             ></iframe>
           </div>
-
         </div>
 
         <div className="w-full px-5 my-5 md:my-0">
