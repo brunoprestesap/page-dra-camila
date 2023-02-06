@@ -21,7 +21,7 @@ function Contact() {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="bg-[#003E53] rounded-lg w-full py-5 px-8 text-center hover:border hover:border-stone-100 hover:shadow-xl my-5">
+              <button className="bg-[#003E53] rounded-lg w-full py-3 px-8 mb-5 text-center hover:border hover:border-stone-100 hover:shadow-xl">
                 <h2 className="text-white uppercase font-bold">Traçar rotas</h2>
               </button>
             </a>
@@ -41,7 +41,7 @@ function Contact() {
         </div>
 
         <div className="w-full px-5 my-5 md:my-0">
-          <div className="w-full mb-5">
+          <div className="w-full mb-8 flex justify-center items-center">
             <h1 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#7C5A12] underline-offset-8">
               CONTATO
             </h1>
