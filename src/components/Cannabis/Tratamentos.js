@@ -7,8 +7,8 @@ const Tratamentos = () => {
     {
       id: 1,
       icon: <FaCannabis size={50} />,
-      title: "CBD – Canabidiol",
-      text: "Saiba mais",
+      title: "Cannabis Medicinal",
+      text: "É um tipo de tratamento seguro e eficaz que utiliza os compostos químicos presentes na planta para aliviar sintomas de diversas condições médicas, incluindo dor crônica, ansiedade, insônia, esclerose múltipla, entre várias outras.",
     },
     {
       id: 2,
