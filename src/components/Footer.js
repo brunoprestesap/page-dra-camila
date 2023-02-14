@@ -69,8 +69,8 @@ const Footer = () => {
             </div>
             <div className="flex gap-3 items-center mb-3">
               <FaHospital size={30} color="CDBCA8" />
-              <h2 className="text-base text-white">
-                Rua Manoel Eudóxio Pereira, 826 <br /> Centro / Macapá-Amapá
+              <h2 className="text-base text-white lining-nums">
+              Rua Hamilton Silva, num 916 - Centro, Macapá - AP, CEP: 68900-068
               </h2>
             </div>
             <div className="flex gap-3 items-center mb-3">
