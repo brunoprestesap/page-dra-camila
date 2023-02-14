@@ -4,6 +4,8 @@ import Brand from "../components/Cannabis/Brand";
 import CardInicial from "../components/Cannabis/CardInicial";
 import Hero from "../components/Cannabis/Hero";
 import Tratamentos from "../components/Cannabis/Tratamentos";
+import Testemonials from '../components/Cannabis/Testemonials';
+import Diferentials from "../components/Cannabis/Diferentials";
 
 const Cannabis = () => {
   const colors = [
@@ -37,6 +39,12 @@ const Cannabis = () => {
 
           {/* Card inicial area */}
           <Brand />
+
+          {/* Testemonials area */}
+          <Testemonials />
+
+          {/* Diferentials area */}
+          <Diferentials />
         </div>
       </div>
     </div>
