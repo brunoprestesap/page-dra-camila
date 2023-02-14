@@ -1,5 +1,6 @@
 import React from "react";
 import BtnUp from "../components/BtnUp";
+import Brand from "../components/Cannabis/Brand";
 import CardInicial from "../components/Cannabis/CardInicial";
 import Hero from "../components/Cannabis/Hero";
 import Tratamentos from "../components/Cannabis/Tratamentos";
@@ -33,6 +34,9 @@ const Cannabis = () => {
 
           {/* Card inicial area */}
           <Tratamentos />
+
+          {/* Card inicial area */}
+          <Brand />
         </div>
       </div>
     </div>

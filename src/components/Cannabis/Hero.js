@@ -30,7 +30,7 @@ const Hero = () => {
 
             <div className="my-10">
               <h2 className="text-2xl md:text-4xl font-medium">
-                Prescritora cannabis medicinal
+                Prescritora de Cannabis Medicinal
               </h2>
               <h2 className="text-lg md:text-xl">
                 Atendimento particular por telemedicina
