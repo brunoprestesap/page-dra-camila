@@ -97,9 +97,6 @@ const Footer = () => {
           <a href="#diferenciais">
             <h2 className="text-base my-2 mx-3 text-white">Diferenciais</h2>
           </a>
-          <a href="#conteudos">
-            <h2 className="text-base my-2 mx-3 text-white">Conteúdos</h2>
-          </a>
           <a href="#contact">
             <h2 className="text-base my-2 mx-3 text-white">Localização</h2>
           </a>
