@@ -1,5 +1,6 @@
 import React from "react";
 import BtnUp from "../components/BtnUp";
+import CardInicial from "../components/Cannabis/CardInicial";
 import Hero from "../components/Cannabis/Hero";
 
 const Cannabis = () => {
@@ -25,6 +26,9 @@ const Cannabis = () => {
 
           {/* Hero area */}
           <Hero color={currentColor} />
+
+          {/* Card inicial area */}
+          <CardInicial />
         </div>
       </div>
     </div>
