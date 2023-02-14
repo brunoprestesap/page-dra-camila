@@ -6,6 +6,9 @@ import Hero from "../components/Cannabis/Hero";
 import Tratamentos from "../components/Cannabis/Tratamentos";
 import Testemonials from '../components/Cannabis/Testemonials';
 import Diferentials from "../components/Cannabis/Diferentials";
+import Cta from "../components/Cannabis/Cta";
+import Contact from "../components/Cannabis/Contact";
+import Footer from "../components/Cannabis/Footer";
 
 const Cannabis = () => {
   const colors = [
@@ -45,6 +48,15 @@ const Cannabis = () => {
 
           {/* Diferentials area */}
           <Diferentials />
+
+          {/* CTA area */}
+          <Cta />
+
+          {/* Contact area */}
+          <Contact />
+
+          {/* Footer area */}
+          <Footer />
         </div>
       </div>
     </div>
