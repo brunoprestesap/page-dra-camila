@@ -1,12 +1,12 @@
 import React from 'react'
 
-import bgHero from "../../assets/brand.jpg";
+import bgHero from "../../assets/P1300093.JPG";
 
 const Brand = () => {
   return (
     <div id="brand" className='relative w-full'>
             <img
-                className="w-full h-screen object-cover object-top"
+                className="w-full h-screen object-cover object-bottom"
                 src={bgHero}
                 alt="brand background"
             ></img>
@@ -24,7 +24,7 @@ const Brand = () => {
                                 SOU EU
                             </h2>
                         </div>
-                        <h2 className='text-base md:text-xl md:leading-8 text-justify text-black'>
+                        <h2 className='text-sm md:text-xl md:leading-8 text-justify text-black'>
                             Tenho 38 anos, sou goiana de coração, médica formada pela Universidade Federal do Amapá. Cursei pós-graduação em Psiquiatria pelo Albert Einstein do RJ e Psiquiatria Intervencionista pelo HC-USP. Além disso, fiz Enfermagem e Mestrado pela UNICAMP. Trabalho desde 2019 ajudando pessoas a encontrar equilíbrio e tranquilidade emocional. Já trabalhei também em CAPS infantil, CAPS Álcool e drogas e Clínica de Reabilitação. Prezo pelo atendimento responsável e humanizado e será uma grande satisfação atender você e poder te ajudar também.
                         </h2>
 
