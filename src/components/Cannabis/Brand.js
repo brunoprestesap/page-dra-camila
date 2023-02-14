@@ -6,7 +6,7 @@ const Brand = () => {
   return (
     <div id="brand" className='relative w-full'>
             <img
-                className="w-full h-screen object-cover object-bottom"
+                className="w-full h-screen object-cover object-bottom md:object-top"
                 src={bgHero}
                 alt="brand background"
             ></img>
