@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div id="hero">
       <img
-        className="w-full h-screen object-cover object-top"
+        className="w-full h-screen md:rotate-180 object-cover md:object-right-bottom object-center"
         src={bgHero}
         alt="hero top"
       ></img>
