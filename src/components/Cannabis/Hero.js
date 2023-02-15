@@ -1,6 +1,6 @@
 import React from 'react'
 
-import bgHero from "../../assets/fundo.jpeg";
+import bgHero from "../../assets/fundo.png";
 import CardExperience from "../CardExperience";
 
 const Hero = () => {
