@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import bgHero from "../../assets/fundo.png";
 import CardExperience from "../CardExperience";
@@ -17,7 +17,10 @@ const Hero = () => {
           <CardExperience />
         </div>
 
-        <div id="sobre" className="flex absolute bottom-16 md:bottom-24 left-0 md:left-7 m-5 md:m-0">
+        <div
+          id="sobre"
+          className="flex absolute bottom-16 md:bottom-24 left-0 md:left-7 m-5 md:m-0"
+        >
           <div className="backdrop-opacity-10 rounded-2xl bg-white/50 p-5 bg-opacity-60 shadow-2xl shadow-stone-500/50">
             <h1 className="text-6xl uppercase lg:text-6xl">Dra.</h1>
             <h1 className="text-6xl uppercase lg:text-6xl font-bold">
@@ -26,7 +29,7 @@ const Hero = () => {
               Neiva
             </h1>
 
-            <hr className="w-full lg:w-full border mt-3 mb-5 border-[#7C5A12]" />
+            <hr className="w-full border-1 mt-3 mb-5 border-[#7C5A12]" />
 
             <div className="my-10">
               <h2 className="text-2xl md:text-4xl font-medium">
@@ -54,7 +57,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

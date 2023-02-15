@@ -69,7 +69,7 @@ const Testemonials = () => {
   return (
     <div id="depoimentos" className="group my-8 md:my-12 lg:my-16">
       <div className="w-full">
-        <h2 className="text-xl md:text-3xl font-bold text-center text-[#CDBCA8] uppercase">
+        <h2 className="text-xl md:text-3xl font-bold text-center text-[#113614] uppercase">
           O que as pessoas dizem sobre o
         </h2>
         <h2 className="text-3xl md:text-5xl font-bold text-center text-[#003E53] uppercase underline decoration-[#7C5A12] underline-offset-8">

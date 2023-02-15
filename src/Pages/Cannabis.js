@@ -25,7 +25,7 @@ const Cannabis = () => {
 
   return (
     <div className={currentMode === "dark" ? "dark" : ""}>
-      <div className="bg-white text-[#003E53] dark:bg-main-dark-bg dark:text-gray-200">
+      <div className="bg-white text-black dark:bg-main-dark-bg dark:text-gray-200">
         {/* BtnArrowUp Component */}
         <BtnUp color={currentColor} />
 
@@ -35,19 +35,19 @@ const Cannabis = () => {
           <Hero color={currentColor} />
 
           {/* Card inicial area */}
-          <CardInicial />
+          <Tratamentos />
+
+          {/* Diferentials area */}
+          <Diferentials />
 
           {/* Card inicial area */}
-          <Tratamentos />
+          <CardInicial />
 
           {/* Card inicial area */}
           <Brand />
 
           {/* Testemonials area */}
           <Testemonials />
-
-          {/* Diferentials area */}
-          <Diferentials />
 
           {/* CTA area */}
           <Cta />

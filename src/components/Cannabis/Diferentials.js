@@ -1,6 +1,6 @@
 import React from "react";
 
-import CardBeneficios from "../CardBeneficios";
+import CardBeneficios from "./CardBeneficios";
 import { FaHandHoldingHeart, FaClock, FaUserMd } from "react-icons/fa";
 
 const Diferentials = () => {
@@ -25,7 +25,7 @@ const Diferentials = () => {
   return (
     <div id="diferenciais" className="px-5 py-16 w-full flex flex-col">
       <div className="flex w-full justify-center items-center gap-2">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#CDBCA8] uppercase">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-[#113614] uppercase">
           Nossos
         </h2>
         <h2 className="text-3xl md:text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8">

@@ -4,9 +4,9 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Cta = () => {
   return (
-    <div id="cta" className="flex justify-center py-12">
+    <div id="cta" className="flex justify-center p-5">
       <div className="flex flex-col w-full md:w-3/6 items-center shadow-2xl shadow-gray-500/50 bg-[#CDBCA8] rounded-xl p-5 md:p-8">
-        <h2 className="text-base md:text-xl leading-7 text-justify text-slate-900">
+        <h2 className="text-sm md:text-xl leading-7 text-justify text-black">
           O uso da cannabis medicinal tem sido amplamente estudado e os
           resultados são surpreendentes. Em muitos casos, ela pode ser tão
           eficaz quanto os medicamentos tradicionais. Além disso, é uma opção

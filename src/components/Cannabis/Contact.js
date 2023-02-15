@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="contact" className="my-8">
       <div className="flex justify-center gap-3 mb-8">
-        <h2 className="flex gap-2 text-4xl font-bold text-center text-[#CDBCA8]">
+        <h2 className="flex gap-2 text-4xl font-bold text-center text-[#113614]">
           <FaMapMarkedAlt color="003E53" />
           ONDE
         </h2>
@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-full px-5 my-5 md:my-0">
+        <div className="w-full px-5 mt-12 md:my-0">
           <div className="w-full mb-8 flex justify-center items-center">
             <h1 className="text-4xl font-bold text-center text-[#003E53] underline decoration-[#7C5A12] underline-offset-8">
               CONTATO

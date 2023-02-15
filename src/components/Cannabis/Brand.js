@@ -17,10 +17,10 @@ const Brand = () => {
 
                     <div className="backdrop-opacity-10 rounded-2xl bg-white px-5 py-8 bg-opacity-60 shadow-2xl shadow-stone-500/50">
                         <div className='flex gap-2'>
-                            <h2 className='text-2xl md:text-4xl tracking-widest text-[#CDBCA8] font-extrabold'>
+                            <h2 className='text-2xl md:text-4xl tracking-widest text-[#113614] font-extrabold'>
                                 QUEM
                             </h2>
-                            <h2 className='text-2xl md:text-4xl font-bold mb-5 underline decoration-[#7C5A12] underline-offset-8'>
+                            <h2 className='text-2xl text-[#003E53] md:text-4xl font-bold mb-5 underline decoration-[#7C5A12] underline-offset-8'>
                                 SOU EU
                             </h2>
                         </div>
