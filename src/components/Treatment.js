@@ -30,22 +30,24 @@ function Treatment() {
   ];
 
   return (
-    <div id="tratamentos" className="p-5 md:py-5 bg-[#CDBCA8]">
+    <div id="tratamentos" className="p-5 bg-[#CDBCA8]">
       <div className="my-12">
         <h2 className='text-4xl font-bold text-center uppercase text-white'>Em que podemos</h2>
         <h2 className='text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8'>te ajudar</h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        {contents.map((content) => {
-          return (
-            <CardTreatment
-              key={content.id}
-              icon={content.icon}
-              title={content.title}
-              text={content.text}
-            />
-          );
-        })}
+      <div className='flex justify-center items-center'>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-6xl">
+          {contents.map((content) => {
+            return (
+              <CardTreatment
+                key={content.id}
+                icon={content.icon}
+                title={content.title}
+                text={content.text}
+              />
+            );
+          })}
+        </div>        
       </div>
     </div>
   );
