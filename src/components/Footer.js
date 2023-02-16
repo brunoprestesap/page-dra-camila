@@ -64,7 +64,7 @@ const Footer = () => {
             <div className="flex gap-3 items-center mb-3">
               <FaHeadset size={30} color="CDBCA8" />
               <h2 className="lining-nums text-xl text-white subpixel-antialiased">
-                (96) 98116-3765
+                (96) 99135-4590
               </h2>{" "}
             </div>
             <div className="flex gap-3 items-center mb-3">

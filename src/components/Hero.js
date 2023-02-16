@@ -38,7 +38,7 @@ function Hero({ color }) {
 
             <div className="w-full flex justify-center">
               <a
-                href="https://wa.me/5596981163765"
+                href="https://wa.me/5596991354590"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -30,7 +30,7 @@ function Treatment() {
   ];
 
   return (
-    <div id="tratamentos" className="p-5 md:py-12 lg:py-20 bg-[#CDBCA8]">
+    <div id="tratamentos" className="p-5 md:py-5 bg-[#CDBCA8]">
       <div className="my-12">
         <h2 className='text-4xl font-bold text-center uppercase text-white'>Em que podemos</h2>
         <h2 className='text-4xl font-bold text-center uppercase underline decoration-[#7C5A12] underline-offset-8'>te ajudar</h2>

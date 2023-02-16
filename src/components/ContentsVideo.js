@@ -60,7 +60,7 @@ function Contents({ color }) {
   }
 
   return (
-    <div id="depoimentos" className="mx-5 flex justify-center flex-col items-center">
+    <div id="depoimentos" className="m-8 flex justify-center flex-col items-center">
 
       {/* Title div */}
       <div className="flex justify-center gap-2 mb-3">

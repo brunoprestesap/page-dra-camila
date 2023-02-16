@@ -37,20 +37,20 @@ function HomePage() {
           {/* Hero area */}
           <HeroContent color={currentColor} />
 
-          {/* Apresentation area */}
-          <Apresentation color={currentColor} />
-
           {/* Treatments area */}
           <Treatment />
+
+          {/* Diferentials area */}
+          <Diferentials />
+
+          {/* Apresentation area */}
+          <Apresentation color={currentColor} />
 
           {/* Depolimentos Area */}
           <Depositions color={currentColor} />
 
           {/* Brand Area */}
           <Brand />
-
-          {/* Diferentials area */}
-          <Diferentials />
 
           {/* Content Area */}
           <ContentsVideo color={currentColor} />

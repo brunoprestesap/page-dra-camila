@@ -17,7 +17,7 @@ function FormScheduler() {
           className="p-3 md:p-5 w-80 my-5 text-white rounded-2xl transform duration-500 hover:-translate-y-1 bg-[#003E53]/70 hover:bg-[#003E53]/90"
         >
           <a
-            href="https://wa.me/5596981163765"
+            href="https://wa.me/5596991354590"
             target="_blank"
             rel="noreferrer"
           >
