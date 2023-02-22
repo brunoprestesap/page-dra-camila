@@ -7,7 +7,7 @@ const CardExperience = () => {
 
         <div className='flex justify-between items-center mt-8 border-l-4 pl-2 border-l-[#7C5A12]'>
             <h2 className='text-white text-2xl lg:text-5xl'>4+</h2>
-            <h2 className='text-white text-sm lg:text-xl text-right'>Anos de<br/>experëncia</h2>
+            <h2 className='text-white text-sm lg:text-xl text-right'>Anos de<br/>experiência</h2>
         </div>
 
         <div className='flex justify-between items-center mt-4 border-l-4 pl-2 border-l-[#7C5A12]'>
