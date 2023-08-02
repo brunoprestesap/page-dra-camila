@@ -17,7 +17,7 @@ function Contact() {
         <div className="flex flex-col w-full">
           <div className="w-full flex justify-center">
             <a
-              href="https://www.google.com/maps/dir//Psiquiatra+Macap%C3%A1+-+Dra+Camila+Neiva+R.+Manoel+Eud%C3%B3xio+Pereira,+826+-+Centro+Macap%C3%A1+-+AP+68900-021/@0.0426545,-51.0660276,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8d61e10bcf1b86ed:0x6f027f4a0e7e4563!2m2!1d-51.0660276!2d0.0426545"
+              href="https://www.google.com/maps/place/Psiquiatra+em+Macap%C3%A1+-+Dra.+Camila+Neiva/@0.0305236,-51.0658788,17z/data=!3m1!4b1!4m6!3m5!1s0x8d61e10bcf1b86ed:0x6f027f4a0e7e4563!8m2!3d0.0305182!4d-51.0633039!16s%2Fg%2F11tdr4qpss?entry=ttu"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,7 +34,7 @@ function Contact() {
               height="615"
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.81775713009!2d-51.06404678475729!3d0.030443699977791498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d61e1e58c595b05%3A0x26f88d2468deb973!2sInnovare%20Odontologia!5e0!3m2!1spt-BR!2sbr!4v1679341311986!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8177541712066!2d-51.06587882426687!3d0.030523564393975137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8d61e10bcf1b86ed%3A0x6f027f4a0e7e4563!2sPsiquiatra%20em%20Macap%C3%A1%20-%20Dra.%20Camila%20Neiva!5e0!3m2!1spt-BR!2sbr!4v1690810492556!5m2!1spt-BR!2sbr"
             ></iframe>
           </div>
         </div>
