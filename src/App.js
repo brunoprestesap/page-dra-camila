@@ -3,6 +3,14 @@ import { Routes, Route } from "react-router-dom";
 import Cannabis from "./Pages/Cannabis";
 import HomePage from "./Pages/HomePage";
 
+import TagManager from "gtm-for-react";
+
+const tagManagerArgs = {
+  gtmId: "GTM-KMRWN8G3",
+};
+
+TagManager.initialize(tagManagerArgs);
+
 function App() {
   return (
     <div className="App">
