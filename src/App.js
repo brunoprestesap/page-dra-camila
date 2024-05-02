@@ -12,6 +12,9 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 function App() {
+  window.dataLayer.push({
+    event: "pageview",
+  });
   return (
     <div className="App">
       <Routes>
